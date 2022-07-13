@@ -6,7 +6,7 @@
   "author": "PDN Dev",
   "license": "MIT",
   "scripts": {
-    "download": "node DownloadCode/downloadData.js",
+    "startDownload": "node DownloadCode/downloadData.js",
     "cleanDownload": "node clean.js"
   },
   "dependencies": {
