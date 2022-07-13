@@ -1,0 +1,22 @@
+[
+	{
+		"supplier_id": "",
+		"supplier_name": "",
+		"system_id": 1,
+		"type": "",
+		"levels": [
+			""
+		],
+		"url": "",
+		"entities_url": "",
+		"token_url": "",
+		"username": "",
+		"password": "",
+		"client_id": "",
+		"client_secret": "",
+		"scope": "",
+		"download": true,
+		"pageSize": 200,
+		"status": "ACTIVE"
+	}
+]
