@@ -162,11 +162,6 @@ def init(sistema):
     return False
 
 
-#S1,S2,S3S,S3P
-
-print(init("s1"))
-
-
 
 
 

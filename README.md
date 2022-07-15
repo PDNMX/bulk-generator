@@ -8,3 +8,6 @@
 
 ## Descargar 
 `yarn startDownload`
+
+## Ejecutar
+`python main.py sistema`
