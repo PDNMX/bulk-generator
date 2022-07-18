@@ -3,7 +3,7 @@
 const { getToken, getData } = require('./utils');
 const jsonfile = require('jsonfile');
 const fs = require('fs');
-const endpoints = require('../endpoints.json');
+const endpoints = require(`${__dirname}/endpoints/endpoints.${process.argv[2]}.json`)//'../endpoints.json');
 
 const writeFile = (filename, page, endpoint) =>
   new Promise(async (resolve, reject) => {

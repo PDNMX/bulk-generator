@@ -7,7 +7,7 @@ s3s
 node_modules
 endpoints.json
 yarn-error.log
-DownloadCode/data
-DownloadCode/endpoints.s2.json
-DownloadCode/endpoints.s3s.json
-DownloadCode/endpoints.s3p.json
+data
+endpoints/endpoints.s2.json
+endpoints/endpoints.s3s.json
+endpoints/endpoints.s3p.json

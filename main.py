@@ -5,12 +5,13 @@ import json
 from os import system
 
 def init():
-
-    #Descarga de la información
-    system("yarn startDownload")
-
+    
     #Obtención del nombre del sistema
     sistema = str(sys.argv[1])
+
+    #Descarga de la información
+    comando = "yarn startDownload " + sistema
+    system(comando)
 
     #Mensaje de inicio
     print("Procesando: "+sistema)
