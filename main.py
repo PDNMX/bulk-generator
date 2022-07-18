@@ -14,13 +14,18 @@ def init():
     system(comando)
 
     #Mensaje de inicio
-    print("Procesando: "+sistema)
+    print("\nProcesando: "+sistema)
 
     #Checamos si podemos empezar a procesar la información
     if gb.init(sistema):
-        zip = shutil.make_archive(sistema,"zip",sistema)
+        #Creamos el archivo comprimido
+        zip = shutil.make_archive(sistema,"zip","data")
         print(sistema+" procesado correctamente")
-        print("Se genero el archivo: "+sistema+".zip")
+        print("Se genero el archivo: "+sistema+".zip\n")
+
+        #limpiamos lo descargado
+        system("yarn cleanDownload")
+
     else:
         print("Fallo el procesado del "+sistema)
 

@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import os
 
+
 def readName(s,mode):
 
     #Lista de nombres
@@ -20,6 +21,8 @@ def readName(s,mode):
 
     #Retornamos los nombres
     return names
+
+
 
 #----------------------------------------------------------------------
 #Funciones pasa s2 y s3
@@ -85,7 +88,7 @@ def merge0(s,names):
 #Funciones pasa s1
 
 def csv(sistema,directorio,name):
-    p = Path(sistema+'/'+directorio+'/'+name)
+    p = Path('data/'+directorio+'/'+name)
 
     #Leemos el json
     with p.open('r', encoding='utf-8') as f:
@@ -99,11 +102,18 @@ def csv(sistema,directorio,name):
         #Creamos el dataframe
         df = pd.json_normalize(data)
 
-        #Realizamos el conteo
-        df_grouped = df.groupby(["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"])["id"].count().reset_index(name="count")
+        if(sistema == "s1"):
+            #Realizamos el conteo
+            df_grouped = df.groupby(["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"])["id"].count().reset_index(name="count")
 
-        #Renombramos columna
-        df_grouped.rename(columns={'declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico':'nombreEntePublico'},inplace=True)
+            #Renombramos columna
+            df_grouped.rename(columns={'declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico':'nombreEntePublico'},inplace=True)
+        elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
+            #Realizamos el conteo
+            df_grouped = df.groupby(["institucionDependencia.nombre"])["id"].count().reset_index(name="count")
+
+            #Renombramos columna
+            df_grouped.rename(columns={'institucionDependencia.nombre':'institucionDependencia'},inplace=True)
 
         #Agregamos entidadPublica
         df_grouped.insert(0,"entidadPublica",directorio)#name[:len(name)-5])
@@ -135,7 +145,7 @@ def merge(s,directorios):
         for directorio in directorios:
 
             #Obtenemos el nombre de los .json del directorio
-            names = names = readName(Path(s+'/'+directorio),1)
+            names = names = readName(Path('data/'+directorio),1)
 
             #Iteramos cada archivo .json del directorio y lo unimos
             for name in names:
@@ -150,6 +160,7 @@ def merge(s,directorios):
 #----------------------------------------------------------------------
 
 #Función de inicio del conteo
+"""
 def init(sistema):
     if (sistema == "s1"):
         merge(sistema,readName(sistema,0))
@@ -160,6 +171,14 @@ def init(sistema):
         return True
 
     return False
+"""
+
+def init(sistema):
+    if (sistema == "s1" or sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
+        merge(sistema,readName("data",0))
+        return True
+
+    return False 
 
 
 
