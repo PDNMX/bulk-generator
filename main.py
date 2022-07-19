@@ -29,6 +29,5 @@ def init():
     else:
         print("Fallo el procesado del "+sistema)
 
-#s1, s2, s3s, s3p
 init()
 

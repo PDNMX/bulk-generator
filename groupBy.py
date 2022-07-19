@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 import os
 
-
+#Función encargada de obtener los nombres de directorios y ficheros
 def readName(s,mode):
 
     #Lista de nombres
@@ -23,70 +23,7 @@ def readName(s,mode):
     return names
 
 
-
-#----------------------------------------------------------------------
-#Funciones pasa s2 y s3
-
-def csv2(sistema,name):
-    p = Path(sistema+'/'+name)
-
-    #Leemos el .json
-    with p.open('r', encoding='utf-8') as f:
-        s = f.read()
-        
-        data = json.loads(s, strict=False)
-
-    #Verificamos que haya datos
-    if(len(data) != 0):
-
-        #Creamos el datframe
-        df = pd.json_normalize(data)
-
-        #Realizamos el conteo
-        df_grouped = df.groupby(["institucionDependencia.nombre"])["id"].count().reset_index(name="count")
-
-        #Renombramos columna
-        df_grouped.rename(columns={'institucionDependencia.nombre':'institucionDependencia'},inplace=True)
-
-        #Agregamos entidadPublica
-        df_grouped.insert(0,"entidadPublica",name[:len(name)-5])
-
-    else:
-        #Creamos el dataframe
-        df_grouped = pd.DataFrame()
-
-        #Asignamos valores de vacío
-        df_grouped['entidadPublica'] = [name[:len(name)-5]]
-        df_grouped['institucionDependencia'] = ['N/A']
-        df_grouped['count'] = [0]
-
-
-    #Retornamos el dataframe
-    return df_grouped
-
-def merge0(s,names):
-    
-    #Lista de nombres
-    list = []
-
-    #Bandera para las cabeceras
-    flag = True
-
-    #Creación de csv
-    with open("conteo_registros_"+s+'.csv', 'w') as file:
-        for name in names:
-            if not flag:
-                #Agregamos el resto de dataframes sin encabezados
-                csv2(s,name).to_csv(file, header=False, index=False)
-            else:
-                #Agremos el primer dataframe junto con sus encabezados
-                csv2(s,name).to_csv(file, header=True, index=False)
-                flag = False
-
-#----------------------------------------------------------------------
-
-#Funciones pasa s1
-
+#Funciones para realizar el conteo
 def csv(sistema,directorio,name):
     p = Path('data/'+directorio+'/'+name)
 
@@ -108,6 +45,7 @@ def csv(sistema,directorio,name):
 
             #Renombramos columna
             df_grouped.rename(columns={'declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico':'nombreEntePublico'},inplace=True)
+            
         elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
             #Realizamos el conteo
             df_grouped = df.groupby(["institucionDependencia.nombre"])["id"].count().reset_index(name="count")
@@ -116,7 +54,7 @@ def csv(sistema,directorio,name):
             df_grouped.rename(columns={'institucionDependencia.nombre':'institucionDependencia'},inplace=True)
 
         #Agregamos entidadPublica
-        df_grouped.insert(0,"entidadPublica",directorio)#name[:len(name)-5])
+        df_grouped.insert(0,"entidadPublica",directorio)
 
     else:
         #Creamos el dataframe
@@ -130,6 +68,8 @@ def csv(sistema,directorio,name):
     #Retornamos el datframe
     return df_grouped
 
+
+#Función encargada de juntar los archivos en uno
 def merge(s,directorios):
 
     #Lista que guarda los dataFrames
@@ -157,22 +97,8 @@ def merge(s,directorios):
                     csv(s,directorio,name).to_csv(file, header=True, index=False)
                     flag = False
 
-#----------------------------------------------------------------------
 
-#Función de inicio del conteo
-"""
-def init(sistema):
-    if (sistema == "s1"):
-        merge(sistema,readName(sistema,0))
-        return True
-        
-    elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
-        merge0(sistema,readName(sistema,1))
-        return True
-
-    return False
-"""
-
+#Función de inicio
 def init(sistema):
     if (sistema == "s1" or sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
         merge(sistema,readName("data",0))
