@@ -1,7 +1,6 @@
 import groupBy as gb
 import shutil
 import sys
-import json
 from os import system
 
 def init():
