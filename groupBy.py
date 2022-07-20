@@ -96,20 +96,3 @@ def merge(s,directorios):
                     #Agremos el primer dataframe junto con sus encabezados
                     csv(s,directorio,name).to_csv(file, header=True, index=False)
                     flag = False
-
-
-#Función de inicio
-def init(sistema):
-    if (sistema == "s1" or sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
-        merge(sistema,readName("data",0))
-        return True
-
-    return False 
-
-
-
-
-
-
-
-

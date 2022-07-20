@@ -8,24 +8,29 @@ def init():
     #Obtención del nombre del sistema
     sistema = str(sys.argv[1])
 
-    #Descarga de la información
-    comando = "yarn startDownload " + sistema
-    system(comando)
+    #Verificamos que sea un sistema valido
+    if (sistema == "s1" or sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
+        
+        #Descarga de la información
+        comando = "yarn startDownload " + sistema
+        system(comando)
 
-    #Mensaje de inicio
-    print("\nProcesando: "+sistema)
+        #Mensaje de inicio
+        print("\nProcesando: "+sistema)
 
-    #Checamos si podemos empezar a procesar la información
-    if gb.init(sistema):
+        #Iniciamos el proceso de conteo
+        gb.merge(sistema,gb.readName("data",0))
+
         #Creamos el archivo comprimido
         zip = shutil.make_archive(sistema,"zip","data")
         print(sistema+" procesado correctamente")
-        print("Se genero el archivo: "+sistema+".zip\n")
+        print("Se generaron los archivos "+sistema+".zip y conteo_registros_"+sistema+".csv\n")
 
         #limpiamos lo descargado
         system("yarn cleanDownload")
 
     else:
+        #Mensaje de fallo
         print("Fallo el procesado del "+sistema)
 
 init()
