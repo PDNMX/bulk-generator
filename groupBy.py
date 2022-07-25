@@ -53,37 +53,22 @@ def csv(sistema,directorio,names):
         df = pd.concat([df,d])
 
 
-    #Verificamos que haya datos
-    if True:#(len(data) != 0):
+    if(sistema == "s1"):
+        #Realizamos el conteo
+        df_grouped = df.groupby(["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"])["id"].count().reset_index(name="count")
 
-        #Creamos el dataframe
-        #df = pd.json_normalize(data)
-
-        if(sistema == "s1"):
-            #Realizamos el conteo
-            df_grouped = df.groupby(["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"])["id"].count().reset_index(name="count")
-
-            #Renombramos columna
-            df_grouped.rename(columns={'declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico':'nombreEntePublico'},inplace=True)
+        #Renombramos columna
+        df_grouped.rename(columns={'declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico':'nombreEntePublico'},inplace=True)
             
-        elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
-            #Realizamos el conteo
-            df_grouped = df.groupby(["institucionDependencia.nombre"])["id"].count().reset_index(name="count")
+    elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
+        #Realizamos el conteo
+        df_grouped = df.groupby(["institucionDependencia.nombre"])["id"].count().reset_index(name="count")
 
-            #Renombramos columna
-            df_grouped.rename(columns={'institucionDependencia.nombre':'institucionDependencia'},inplace=True)
+        #Renombramos columna
+        df_grouped.rename(columns={'institucionDependencia.nombre':'institucionDependencia'},inplace=True)
 
-        #Agregamos entidadPublica
-        df_grouped.insert(0,"entidadPublica",directorio)
-
-    else:
-        #Creamos el dataframe
-        df_grouped = pd.DataFrame()
-
-        #Asignamos valores de vacío
-        df_grouped['entidadPublica'] = [name[:len(name)-5]]
-        df_grouped['institucionDependencia'] = ['N/A']
-        df_grouped['count'] = [0]
+    #Agregamos entidadPublica
+    df_grouped.insert(0,"entidadPublica",directorio)
 
     #Retornamos el datframe
     return df_grouped
@@ -110,7 +95,7 @@ def merge(s,directorios):
             if(len(names) != 0):
                 csv(s,directorio,names).to_csv(file, header=flag, index=False)
             else:
-                #Creamos el dataframe
+                #Creamos el dataframe temporal
                 df_tmp = pd.DataFrame()
 
                 #Asignamos valores de vacío
@@ -121,15 +106,3 @@ def merge(s,directorios):
                 df_tmp.to_csv(file, header=flag, index=False)
             
             flag = False
-
-"""
-            #Iteramos cada archivo .json del directorio y lo unimos
-            for name in names:
-                if not flag:
-                    #Agregamos el resto de dataframes sin encabezados
-                    csv(s,directorio,name).to_csv(file, header=False, index=False)
-                else:
-                    #Agremos el primer dataframe junto con sus encabezados
-                    csv(s,directorio,name).to_csv(file, header=True, index=False)
-                    flag = False
-"""
