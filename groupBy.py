@@ -105,9 +105,22 @@ def merge(s,directorios):
         for directorio in directorios:
 
             #Obtenemos el nombre de los .json del directorio
-            names = names = readName(Path('data/'+directorio),1)
+            names = readName(Path('data/'+directorio),1)
 
-        csv(s,directorio,names).to_csv(file, header=False, index=False)
+            if(len(names) != 0):
+                csv(s,directorio,names).to_csv(file, header=flag, index=False)
+            else:
+                #Creamos el dataframe
+                df_tmp = pd.DataFrame()
+
+                #Asignamos valores de vacío
+                df_tmp['entidadPublica'] = [directorio]
+                df_tmp['institucionDependencia'] = ['N/A']
+                df_tmp['count'] = [0]
+
+                df_tmp.to_csv(file, header=flag, index=False)
+            
+            flag = False
 
 """
             #Iteramos cada archivo .json del directorio y lo unimos
