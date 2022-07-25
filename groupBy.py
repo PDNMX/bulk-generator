@@ -24,20 +24,40 @@ def readName(s,mode):
 
 
 #Funciones para realizar el conteo
-def csv(sistema,directorio,name):
-    p = Path('data/'+directorio+'/'+name)
+def csv(sistema,directorio,names):
 
-    #Leemos el json
-    with p.open('r', encoding='utf-8') as f:
-        s = f.read()
-        
-        data = json.loads(s, strict=False)
+    #Lista que contendra los dataframes
+    dataframes = []
+
+    #Iteramos los archivos del directorio
+    for name in names:
+
+        #Ruta del .json
+        p = Path('data/'+directorio+'/'+name)
+
+        #Leemos el json
+        with p.open('r', encoding='utf-8') as f:
+            s = f.read()
+            
+            #Cargamos el .json
+            data = json.loads(s, strict=False)
+
+            #Creamos el dataframe y lo agregamos a la lista
+            dataframes.append(pd.json_normalize(data))        
+    
+    #Creamos el contenedor de todos los dataframes
+    df = pd.DataFrame()
+
+    #Unimos los dataframes en el contenedor
+    for d in dataframes:
+        df = pd.concat([df,d])
+
 
     #Verificamos que haya datos
-    if(len(data) != 0):
+    if True:#(len(data) != 0):
 
         #Creamos el dataframe
-        df = pd.json_normalize(data)
+        #df = pd.json_normalize(data)
 
         if(sistema == "s1"):
             #Realizamos el conteo
@@ -87,6 +107,9 @@ def merge(s,directorios):
             #Obtenemos el nombre de los .json del directorio
             names = names = readName(Path('data/'+directorio),1)
 
+        csv(s,directorio,names).to_csv(file, header=False, index=False)
+
+"""
             #Iteramos cada archivo .json del directorio y lo unimos
             for name in names:
                 if not flag:
@@ -96,3 +119,4 @@ def merge(s,directorios):
                     #Agremos el primer dataframe junto con sus encabezados
                     csv(s,directorio,name).to_csv(file, header=True, index=False)
                     flag = False
+"""
