@@ -14,8 +14,7 @@ def update():
     global flag
     
     #Verificamos si requerimos actualizar los datos
-    if (datetime.today().weekday() == 6 and not flag):
-        print("entre")
+    if (datetime.today().weekday() == 4 and not flag):
         #sistemas = ["s2","s3s","s3p"]
         sistemas = ["s3s"]
         #Descargamos la información para cada sistema
@@ -37,13 +36,13 @@ def update():
             #Creamos los zip con todos los elementos de cada sistema
             zip = shutil.make_archive("./descargas/all_"+sistema,"zip","./descargas/data/"+sistema+"/")
 
-            #Creamos el zip de todos los sistemas
-            zip = shutil.make_archive("./descargas/all","zip","./descargas/data")
+        #Creamos el zip de todos los sistemas
+        zip = shutil.make_archive("./descargas/all","zip","./descargas/data")
 
         #Indicamos que ya se actualizo la información
         flag = True
         
-    elif (datetime.today().weekday() != 3):
+    elif (datetime.today().weekday() != 4):
         #Indicamos que no se ha actualizado la información
         flag = False
 
@@ -66,11 +65,11 @@ def download(sistema = None,elemento = None):
             len = 12
         elif elemento == "csv":
             #Descarga unicamente el csv
-            path = "./descargas/data/conteo_registros_"+sistema+".csv"
+            path = "./descargas/data/"+sistema+"/conteo_registros_"+sistema+".csv"
             len = 17
         elif elemento == "zip":
             #Descarga unicamente el zip
-            path = "./descargas/data/"+sistema+".zip"
+            path = "./descargas/data/"+sistema+"/"+sistema+".zip"
             len = 17
     else:
         #Descargamos todos los archivos
