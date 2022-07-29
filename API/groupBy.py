@@ -80,6 +80,9 @@ def merge(s,directorios):
     #Lista que guarda los dataFrames
     list = []
 
+    #Lista que guarda las entidades que no tienen datos
+    entidadVacia = []
+
     #Bandera de ayuda para encabezados
     flag = True
 
@@ -95,6 +98,10 @@ def merge(s,directorios):
             if(len(names) != 0):
                 csv(s,directorio,names).to_csv(file, header=flag, index=False)
             else:
+                
+                #Agregamos el nombre a la lista de entidades vacias
+                entidadVacia.append(directorio)
+
                 #Creamos el dataframe temporal
                 df_tmp = pd.DataFrame()
 
@@ -106,3 +113,22 @@ def merge(s,directorios):
                 df_tmp.to_csv(file, header=flag, index=False)
             
             flag = False
+
+    #Creamos el reporte de entidades vacias
+    df = pd.DataFrame()
+    estatusDeConexion = []
+
+    #Definimos el estado de la conexión
+    for directorio in directorios:
+        if (directorio in entidadVacia):
+            estatusDeConexion.append("No disponible")
+        else:
+            estatusDeConexion.append("Disponible")
+
+    #agregamos los datos al dataframe
+    df['Entidad'] = directorios
+    df['Estatus de conexión'] = estatusDeConexion
+
+    #Creamos el documento
+    with open("descargas/data/"+s+"/reporte_de_conexiones_"+s+'.csv','w') as file:
+        df.to_csv(file,header=True,index=False)
