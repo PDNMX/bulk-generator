@@ -8,5 +8,9 @@ node_modules
 yarn-error.log
 data
 endpoints
-API/descargas
+API/descargas/*.zip
+API/descargas/s1/
+API/descargas/s2/
+API/descargas/s3s/
+API/descargas/s3p/
 API/__pycache__

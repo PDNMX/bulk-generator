@@ -2,7 +2,7 @@ from datetime import datetime
 from email import message
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
-from os import system
+import os
 import uvicorn
 import groupBy as gb
 import shutil
@@ -23,7 +23,7 @@ def update():
 
         #Descarga de la información
         comando = "yarn startDownload " + sistema
-        system(comando)
+        os.system(comando)
 
         #Iniciamos el proceso de conteo
         gb.merge(sistema,gb.readName("../data",0))
@@ -32,7 +32,7 @@ def update():
         zip = shutil.make_archive("./descargas/data/"+sistema+"/"+sistema,"zip","../data")
 
         #limpiamos lo descargado
-        system("yarn cleanDownload")
+        os.system("yarn cleanDownload")
         
         #Creamos los zip con todos los elementos de cada sistema
         zip = shutil.make_archive("./descargas/all_"+sistema,"zip","./descargas/data/"+sistema+"/")
@@ -90,7 +90,13 @@ def download(sistema = None,elemento = None):
         return FileResponse(path=path,filename=path[tam:])
     
 
-#Encender el servidor
+
 if __name__ == '__main__':
+
+    #Verificamos si tenemos los archivos
+    if (not os.path.exists("./descargas/all.zip")):
+        update()
+
+    #Encender el servidor
     uvicorn.run(app,host='127.0.0.1', port=8000)
 
