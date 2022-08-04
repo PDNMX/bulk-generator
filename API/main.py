@@ -98,7 +98,8 @@ if __name__ == '__main__':
         #Creamos las carpetas
         carpetas = ["./descargas","./descargas/data","./descargas/data/s1","./descargas/data/s2","./descargas/data/s3p","./descargas/data/s3s"]
         for carpeta in carpetas:
-            os.mkdir(carpeta)
+            if (not os.path.exists(carpeta)):
+                os.mkdir(carpeta)
         
         #Descargamos los archivos
         update()
