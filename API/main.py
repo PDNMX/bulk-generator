@@ -95,6 +95,12 @@ if __name__ == '__main__':
 
     #Verificamos si tenemos los archivos
     if (not os.path.exists("./descargas/all.zip")):
+        #Creamos las carpetas
+        carpetas = ["./descargas","./descargas/data","./descargas/data/s1","./descargas/data/s2","./descargas/data/s3p","./descargas/data/s3s"]
+        for carpeta in carpetas:
+            os.mkdir(carpeta)
+        
+        #Descargamos los archivos
         update()
 
     #Encender el servidor
