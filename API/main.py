@@ -8,16 +8,16 @@ import groupBy as gb
 import shutil
 
 #Definición de día y horas de actualización
-day = 4
-limiteInferior = datetime.strptime("12:00:00","%X").time()
-limiteSuperior = datetime.strptime("12:30:00","%X").time()
+day = 6
+limiteInferior = datetime.strptime("8:00:00","%X").time()
+limiteSuperior = datetime.strptime("9:00:00","%X").time()
 actualizar = True
 
 #Función encargada de actualizar los archivos
 def update():
 
     sistemas = ["s1","s2","s3s","s3p"]
-    #sistemas = ["s3s"]
+    
     #Descargamos la información para cada sistema
     for sistema in sistemas:
 
@@ -90,8 +90,7 @@ def download(sistema = None,elemento = None):
         return FileResponse(path=path,filename=path[tam:])
     
 
-#"""
 #Encender el servidor
 if __name__ == '__main__':
     uvicorn.run(app,host='127.0.0.1', port=8000)
-#"""
+
