@@ -7,8 +7,8 @@ Para utilizar este software debe de asegurarse de tener instalado las siguientes
 - Node v16.16.0
 - Yarn 1.22.19
 
-Así mismo debe de contar con las bibliotecas necesarias de Python especificadas en el archivo denominado *requirements.txt*. 
-Es importante recalcar que esta API cuenta con un sistema de actualización lo que ocasionará que durante los domingos de 7:00 am a 8:00 am cualquier petición que se le haga al sistema será rechazada. Pasando este periodo el sistema volverá a funcionar con normalidad.
+Así mismo debe de contar con las bibliotecas necesarias de Python especificadas en el archivo denominado **requirements.txt**. 
+Es importante recalcar que esta API cuenta con un sistema de actualización lo que ocasionará que durante los **domingos de 7:00 am a 8:00 am** cualquier petición que se le haga al sistema **será rechazada**. Pasando este periodo el sistema volverá a funcionar con normalidad.
 
 
 
@@ -16,7 +16,7 @@ Es importante recalcar que esta API cuenta con un sistema de actualización lo q
 `yarn install`
 
 ## Ejecutar
-Para iniciar el programa se debe de ejecutar alguno de los siguientes comandos dependiendo el OS en el que se encuentre.
+Para iniciar el programa se debe de ejecutar alguno de los siguientes comandos dentro de la carpeta API dependiendo el OS en el que se encuentre.
 
 ### Windows
 `python main.py`
