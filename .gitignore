@@ -9,5 +9,4 @@ yarn-error.log
 data
 endpoints
 API/descargas
-downloadData.py
-__pycache__
+API/__pycache__
