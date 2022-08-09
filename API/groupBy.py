@@ -46,11 +46,7 @@ def csv(sistema,directorio,names):
             dataframes.append(pd.json_normalize(data))        
     
     #Creamos el contenedor de todos los dataframes
-    df = pd.DataFrame()
-
-    #Unimos los dataframes en el contenedor
-    for d in dataframes:
-        df = pd.concat([df,d])
+    df = pd.concat(dataframes)
 
 
     if(sistema == "s1"):
