@@ -50,6 +50,16 @@ def csv(sistema,directorio,names):
 
 
     if(sistema == "s1"):
+
+        #Damos formato Camel al nombre de la institución
+        df["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"] = df["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"].str.title()
+
+        #Eliminamos espacios en blanco de más
+        df["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"] = df["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"].str.strip()
+
+        #Quitamos las comillas
+        df["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"] = df["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"].str.replace("\"","")
+        
         #Realizamos el conteo
         df_grouped = df.groupby(["declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico"])["id"].count().reset_index(name="count")
 
@@ -57,6 +67,16 @@ def csv(sistema,directorio,names):
         df_grouped.rename(columns={'declaracion.situacionPatrimonial.datosEmpleoCargoComision.nombreEntePublico':'nombreEntePublico'},inplace=True)
             
     elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
+
+        #Damos formato Camel al nombre de la institución
+        df["institucionDependencia.nombre"] = df["institucionDependencia.nombre"].str.title()
+
+        #Eliminamos espacios en blanco de más
+        df["institucionDependencia.nombre"] = df["institucionDependencia.nombre"].str.strip()
+
+        #Quitamos comillas
+        df["institucionDependencia.nombre"] = df["institucionDependencia.nombre"].str.replace("\"","")
+
         #Realizamos el conteo
         df_grouped = df.groupby(["institucionDependencia.nombre"])["id"].count().reset_index(name="count")
 
