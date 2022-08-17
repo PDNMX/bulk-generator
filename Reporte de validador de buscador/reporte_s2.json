@@ -1,0 +1,3106 @@
+[
+    {
+        "Nombre": "Poder Legislativo",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL PATRIMONIO DE LA BENEFICENCIA P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE ALTAMIRA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE ENSENADA, S.A. DE C.V",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE GUAYMAS, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE MANZANILLO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE MAZATL\u00c1N, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE PROGRESO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE PUERTO MADERO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE PUERTO VALLARTA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE TAMPICO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE TOPOLOBAMPO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE TUXPAN, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DE VERACRUZ, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N DEL SISTEMA PORTUARIO NACIONAL DOS BOCAS, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N PORTUARIA INTEGRAL DE COATZACOALCOS, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N PORTUARIA INTEGRAL DE L\u00c1ZARO C\u00c1RDENAS, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N PORTUARIA INTEGRAL DE SALINA CRUZ, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N PORTUARIA INTEGRAL DE SALINA CRUZ, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ADMINISTRACI\u00d3N PORTUARIA INTEGRAL DE TAMPICO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "AEROPUERTO INTERNACIONAL DE LA CIUDAD DE M\u00c9XICO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "AEROPUERTOS Y SERVICIOS AUXILIARES",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA DE SERVICIOS A LA COMERCIALIZACI\u00d3N Y DESARROLLO DE MERCADOS AGROPECUARIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA ESPACIAL MEXICANA",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA FEDERAL DE AVIACION CIVIL",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA MEXICANA DE COOPERACI\u00d3N INTERNACIONAL PARA EL DESARROLLO",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA NACIONAL DE ADUANAS DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA NACIONAL DE SEGURIDAD INDUSTRIAL Y DE PROTECCI\u00d3N AL MEDIO AMBIENTE DEL SECTOR HIDROCARBUROS",
+        "Status": true
+    },
+    {
+        "Nombre": "AGENCIA REGULADORA DEL TRANSPORTE FERROVIARIO",
+        "Status": true
+    },
+    {
+        "Nombre": "AGROASEMEX, S.A.",
+        "Status": true
+    },
+    {
+        "Nombre": "AGUAS DEL MUNICIPIO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "ARCHIVO GENERAL DE LA NACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "AUDITORIA SUPERIOR DEL ESTADO DE BAJA CALIFORNIA SUR",
+        "Status": true
+    },
+    {
+        "Nombre": "AUDITOR\u00cdA SUPERIOR DEL ESTADO DE QUINTANA ROO",
+        "Status": true
+    },
+    {
+        "Nombre": "AUTORIDAD EDUCATIVA FEDERAL EN LA CIUDAD DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "AUTORIDAD FEDERAL PARA EL DESARROLLO DE LAS ZONAS ECON\u00d3MICAS ESPECIALES",
+        "Status": true
+    },
+    {
+        "Nombre": "AYUNTAMIENTO DE GUADALAJARA",
+        "Status": true
+    },
+    {
+        "Nombre": "Acambay de Ru\u00edz Casta\u00f1eda",
+        "Status": true
+    },
+    {
+        "Nombre": "Aculco",
+        "Status": true
+    },
+    {
+        "Nombre": "Almoloya de Alquisiras",
+        "Status": true
+    },
+    {
+        "Nombre": "Almoloya de Ju\u00e1rez",
+        "Status": true
+    },
+    {
+        "Nombre": "Amanalco",
+        "Status": true
+    },
+    {
+        "Nombre": "Amecameca",
+        "Status": true
+    },
+    {
+        "Nombre": "Apaxco",
+        "Status": true
+    },
+    {
+        "Nombre": "Atizap\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Atizap\u00e1n de Zaragoza",
+        "Status": true
+    },
+    {
+        "Nombre": "Atlacomulco",
+        "Status": true
+    },
+    {
+        "Nombre": "Atlautla",
+        "Status": true
+    },
+    {
+        "Nombre": "Auditor\u00eda Superior del Estado de Jalisco",
+        "Status": true
+    },
+    {
+        "Nombre": "Auditor\u00eda Superior del Estado de Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "BANCO DEL BIENESTAR, S.N.C., I.B.D.",
+        "Status": true
+    },
+    {
+        "Nombre": "BANCO NACIONAL DE COMERCIO EXTERIOR, S.N.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "BANCO NACIONAL DE OBRAS Y SERVICIOS P\u00daBLICOS, S.N.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "BANCO NACIONAL DEL EJ\u00c9RCITO, FUERZA A\u00c9REA Y ARMADA, S.N.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CAMINOS Y PUENTES FEDERALES DE INGRESOS Y SERVICIOS CONEXOS",
+        "Status": true
+    },
+    {
+        "Nombre": "CARRETERAS DE CUOTA PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "CASA DE MONEDA DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRAL DE ABASTOS DE VILLAHERMOSA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRAL DE MAQUINARIA DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE CAPACITACI\u00d3N CINEMATOGR\u00c1FICA, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE CONCILIACION LABORAL DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE CONCILIACI\u00d3N LABORAL DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE CONCILIACI\u00d3N LABORAL DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE ENSE\u00d1ANZA T\u00c9CNICA INDUSTRIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INGENIER\u00cdA Y DESARROLLO INDUSTRIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INTERPRETACI\u00d3N Y CONVIVENCIA CON LA NATURALEZA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACIONES BIOL\u00d3GICAS DEL NOROESTE, S.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACIONES EN \u00d3PTICA, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACIONES Y ESTUDIOS SUPERIORES EN ANTROPOLOG\u00cdA SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N CIENT\u00cdFICA DE YUCAT\u00c1N, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N CIENT\u00cdFICA Y DE EDUCACI\u00d3N SUPERIOR DE ENSENADA, BAJA CALIFORNIA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N EN ALIMENTACI\u00d3N Y DESARROLLO, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N EN CIENCIAS DE INFORMACI\u00d3N GEOESPACIAL, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N EN MATEM\u00c1TICAS, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N EN MATERIALES AVANZADOS, S.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N EN QU\u00cdMICA APLICADA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N Y ASISTENCIA EN TECNOLOG\u00cdA Y DISE\u00d1O DEL ESTADO DE JALISCO, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N Y DE ESTUDIOS AVANZADOS DEL INSTITUTO POLIT\u00c9CNICO NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N Y DESARROLLO TECNOL\u00d3GICO EN ELECTROQU\u00cdMICA, S.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE INVESTIGACI\u00d3N Y DOCENCIA ECON\u00d3MICAS, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO DE PRODUCCI\u00d3N DE PROGRAMAS INFORMATIVOS Y ESPECIALES",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO FEDERAL DE CONCILIACI\u00d3N Y REGISTRO LABORAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE CONTROL DE ENERG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE CONTROL DEL GAS NATURAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE EQUIDAD DE G\u00c9NERO Y SALUD REPRODUCTIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE EXCELENCIA TECNOL\u00d3GICA EN SALUD",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE LA TRANSFUSI\u00d3N SANGU\u00cdNEA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE METROLOG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE PROGRAMAS PREVENTIVOS Y CONTROL DE ENFERMEDADES",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL DE TRASPLANTES",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL PARA LA PREVENCI\u00d3N Y EL CONTROL DEL VIH/SIDA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO NACIONAL PARA LA SALUD DE LA INFANCIA Y LA ADOLESCENCIA",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTRO REGIONAL DE ALTA ESPECIALIDAD DE CHIAPAS",
+        "Status": true
+    },
+    {
+        "Nombre": "CENTROS DE INTEGRACI\u00d3N JUVENIL, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "CIATEC, A.C. \\\"CENTRO DE INNOVACI\u00d3N APLICADA EN TECNOLOG\u00cdAS COMPETITIVAS\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "CIATEQ, A.C. CENTRO DE TECNOLOG\u00cdA AVANZADA",
+        "Status": true
+    },
+    {
+        "Nombre": "CIUDAD MODELO",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE BACHILLERES",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE BACHILLERES DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE EDUCACION PROFESIONAL TECNICA DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE EDUCACION PROFESIONAL T\u00c9CNICA DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE EDUCACI\u00d3N PROFESIONAL T\u00c9CNICA DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE ESTUDIOS CIENTIFICOS Y TECNOLOGICOS DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE ESTUDIOS CIENT\u00cdFICOS Y TECNOL\u00d3GICOS DEL EDO. DE  TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE ESTUDIOS CIENT\u00cdFICOS Y TECNOL\u00d3GICOS DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO DE POSTGRADUADOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO NACIONAL DE EDUCACI\u00d3N PROFESIONAL T\u00c9CNICA",
+        "Status": true
+    },
+    {
+        "Nombre": "COLEGIO SUPERIOR AGROPECUARIO DEL ESTADO DE GUERRERO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION CIUDADANA DE AGUA POTABLE Y ALCANTARILLADO DEL MUNICIPIO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION DE AGUA POTABLE Y ALCANTARILLADO DE PABELLON DE ARTEAGA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DEL MUNICIPIO DE JESUS MARIA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION DE DERECHOS HUMANOS DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION DE DERECHOS HUMANOS DEL ESTADO DE MEXICO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION ESTATAL DE ARBITRAJE MEDICO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISION ESTATAL DE LOS DERECHOS HUMANOS DE BAJA CALIFORNIA SUR",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N DE APELACI\u00d3N Y ARBITRAJE DEL DEPORTE",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N DE DERECHOS HUMANOS DEL ESTADO DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N DE OPERACI\u00d3N Y FOMENTO DE ACTIVIDADES ACAD\u00c9MICAS DEL INSTITUTO POLIT\u00c9CNICO NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N DE RADIO Y TELEVISI\u00d3N DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N EJECUTIVA DE ATENCI\u00d3N A V\u00cdCTIMAS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N ESTATAL DE AGUA Y SANEAMIENTO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N ESTATAL DE AGUA Y SANEAMIENTO DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N ESTATAL DE LOS DERECHOS HUMANOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N ESTATAL FORESTAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N FEDERAL PARA LA PROTECCI\u00d3N CONTRA RIESGOS SANITARIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL BANCARIA Y DE VALORES",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL CONTRA LAS ADICCIONES",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE ACUACULTURA Y PESCA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE ARBITRAJE M\u00c9DICO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE BIO\u00c9TICA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE B\u00daSQUEDA DE PERSONAS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE CULTURA F\u00cdSICA Y DEPORTE",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE HIDROCARBUROS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE LAS ZONAS \u00c1RIDAS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE LIBROS DE TEXTO GRATUITOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE LOS SALARIOS M\u00cdNIMOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE MEJORA REGULATORIA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE PROTECCI\u00d3N SOCIAL EN SALUD",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE SEGURIDAD NUCLEAR Y SALVAGUARDIAS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE SEGUROS Y FIANZAS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE VIVIENDA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DE \u00c1REAS NATURALES PROTEGIDAS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DEL AGUA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL DEL SISTEMA DE AHORRO PARA EL RETIRO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL FORESTAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL PARA EL USO EFICIENTE DE LA ENERG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL PARA LA MEJORA CONTINUA DE LA EDUCACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL PARA LA PROTECCI\u00d3N Y DEFENSA DE LOS USUARIOS DE SERVICIOS FINANCIEROS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N NACIONAL PARA PREVENIR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES",
+        "Status": true
+    },
+    {
+        "Nombre": "COMISI\u00d3N REGULADORA DE ENERG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "COMIT\u00c9 ADMINISTRADOR POBLANO PARA LA CONSTRUCCI\u00d3N DE ESPACIOS EDUCATIVOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COMIT\u00c9 NACIONAL MIXTO DE PROTECCI\u00d3N AL SALARIO",
+        "Status": true
+    },
+    {
+        "Nombre": "COMIT\u00c9 NACIONAL PARA EL DESARROLLO SUSTENTABLE DE LA CA\u00d1A DE AZ\u00daCAR",
+        "Status": true
+    },
+    {
+        "Nombre": "COMPA\u00d1\u00cdA MEXICANA DE EXPLORACIONES, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "COMPA\u00d1\u00cdA OPERADORA DEL CENTRO CULTURAL Y TUR\u00cdSTICO DE TIJUANA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJER\u00cdA JUR\u00cdDICA DEL EJECUTIVO FEDERAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO DE CIENCIA Y TECNOLOG\u00cdA DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO DE CIENCIA Y TECNOLOG\u00cdAS DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO DE LA JUDICATURA DEL PODER JUDICIAL DEL ESTADO DE OAXACA",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO DE PROMOCI\u00d3N TUR\u00cdSTICA DE M\u00c9XICO, S.A. DE C.V. (EN PROCESO DE DESINCORPORACI\u00d3N)",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO ESTATAL DE COORDINACI\u00d3N DEL SISTEMA NACIONAL DE SEGURIDAD P\u00daBICA",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO NACIONAL DE CIENCIA Y TECNOLOG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO NACIONAL DE EVALUACI\u00d3N DE LA POL\u00cdTICA DE DESARROLLO SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO NACIONAL DE FOMENTO EDUCATIVO",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO NACIONAL PARA EL DESARROLLO Y LA INCLUSI\u00d3N DE LAS PERSONAS CON DISCAPACIDAD",
+        "Status": true
+    },
+    {
+        "Nombre": "CONSEJO NACIONAL PARA PREVENIR LA DISCRIMINACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "CONTRALORIA DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "CONVENCIONES Y PARQUES",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACION GENERAL DE COMUNICACION SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACION GENERAL DE GABINETE",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACION GENERAL DE MOVILIDAD",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N ESTATAL DE TRANSPARENCIA Y GOBIERNO ABIERTO",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N ESTATAL PARA LA REGULARIZACI\u00d3N DE LA TENENCIA DE LA TIERRA",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N GENERAL @prende.mx",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N GENERAL ADMINISTRATIVA DEL EJECUTIVO DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N GENERAL DE ASUNTOS JUR\u00cdDICOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N GENERAL DE COMUNICACION SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N GENERAL DE COMUNICACI\u00d3N Y AGENDA DIGITAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N GENERAL DE LA COMISI\u00d3N MEXICANA DE AYUDA A REFUGIADOS",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N NACIONAL DE BECAS PARA EL BIENESTAR BENITO JU\u00c1REZ",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N NACIONAL DE PROSPERA PROGRAMA DE INCLUSI\u00d3N SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "COORDINACI\u00d3N PARA LA ATENCI\u00d3N INTEGRAL DE LA MIGRACI\u00d3N EN LA FRONTERA SUR",
+        "Status": true
+    },
+    {
+        "Nombre": "CORPORACI\u00d3N AUXILIAR DE POLIC\u00cdA DE PROTECCI\u00d3N CIUDADANA",
+        "Status": true
+    },
+    {
+        "Nombre": "CORPORACI\u00d3N DE SERVICIOS AL TURISTA \u00c1NGELES VERDES",
+        "Status": true
+    },
+    {
+        "Nombre": "CORPORACI\u00d3N MEXICANA DE INVESTIGACI\u00d3N EN MATERIALES, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "CORREDOR INTEROCE\u00c1NICO DEL ISTMO DE TEHUANTEPEC",
+        "Status": true
+    },
+    {
+        "Nombre": "Calimaya",
+        "Status": true
+    },
+    {
+        "Nombre": "Capulhuac",
+        "Status": true
+    },
+    {
+        "Nombre": "Chapa de Mota",
+        "Status": true
+    },
+    {
+        "Nombre": "Chapultepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Chiautla",
+        "Status": true
+    },
+    {
+        "Nombre": "Chiconcuac",
+        "Status": true
+    },
+    {
+        "Nombre": "Chimalhuac\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Coacalco de Berriozabal",
+        "Status": true
+    },
+    {
+        "Nombre": "Coatepec Harinas",
+        "Status": true
+    },
+    {
+        "Nombre": "Cocotitl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Colegio de Estudios Cientificos y Tecnologicos del Estado de Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "Comisi\u00f3n Estatal de Derechos Humanos",
+        "Status": true
+    },
+    {
+        "Nombre": "Comisi\u00f3n Estatal de los Derechos Humanos",
+        "Status": true
+    },
+    {
+        "Nombre": "Comisi\u00f3n de Derechos Humanos del Estado",
+        "Status": true
+    },
+    {
+        "Nombre": "Comisi\u00f3n del Agua del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Coordinaci\u00f3n General de Comunicaci\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "Coordinaci\u00f3n General de Comunicaci\u00f3n Social",
+        "Status": true
+    },
+    {
+        "Nombre": "Coyotepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Cuautitl\u00e1n Izcalli",
+        "Status": true
+    },
+    {
+        "Nombre": "DEPENDENCIA DE PRUEBA",
+        "Status": true
+    },
+    {
+        "Nombre": "DICONSA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "DICONSA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "Donato Guerra",
+        "Status": true
+    },
+    {
+        "Nombre": "EDUCAL, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "EL COLEGIO DE LA FRONTERA NORTE, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "EL COLEGIO DE LA FRONTERA SUR",
+        "Status": true
+    },
+    {
+        "Nombre": "EL COLEGIO DE MICHOAC\u00c1N, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "EL COLEGIO DE SAN LUIS, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "ENTIDAD DE AUDITORIA SUPERIOR DEL ESTADO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "ENTIDAD DE AUDITORIA SUPERIOR DEL ESTADO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "ESCUELA NORMAL DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "ESTUDIOS CHURUBUSCO AZTECA, S.A.",
+        "Status": true
+    },
+    {
+        "Nombre": "EXPORTADORA DE SAL, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "Ecatzingo",
+        "Status": true
+    },
+    {
+        "Nombre": "El Oro",
+        "Status": true
+    },
+    {
+        "Nombre": "FERROCARRIL DEL ISTMO DE TEHUANTEPEC, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "FERROCARRIL DEL ISTMO DE TEHUANTEPEC, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO COMPLEJO TRES CENTURIAS",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DE FOMENTO MINERO",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DE FORMACI\u00d3N Y CAPACITACI\u00d3N PARA EL PERSONAL DE LA MARINA MERCANTE NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DE FORMACI\u00d3N Y CAPACITACI\u00d3N PARA EL PERSONAL DE LA MARINA MERCANTE NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DE LOS SISTEMAS NORMALIZADO DE COMPETENCIA LABORAL Y DE CERTIFICACI\u00d3N DE COMPETENCIA LABORAL",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DE RIESGO COMPARTIDO",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DEL PROGRAMA DE BECAS NACIONALES PARA LA EDUCACI\u00d3N SUPERIOR MANUTENCI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO DESARROLLOS INDUSTRIALES DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO FONDO NACIONAL DE FOMENTO EJIDAL",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO FONDO NACIONAL DE HABITACIONES POPULARES",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO FONDO PARA EL FORTALECIMIENTO DE LA MICRO EMPRESA",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO PARA LA CINETECA NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO P\u00daBLICO DENOMINADO BANCO ESTATAL DE TIERRA",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISO P\u00daBLICO PARA LA ADMINISTRACI\u00d3N DE INMUEBLES Y EJECUCI\u00d3N DE OBRAS PUBLICAS EN LA RESERVA TERRITORIAL ATLIXCAYOTL-QUETZALCOATL",
+        "Status": true
+    },
+    {
+        "Nombre": "FIDEICOMISOS DE INVERSION Y ADMINISTRACION PARA EL DESARROLLO ECONOMICO DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "FINANCIERA NACIONAL DE DESARROLLO AGROPECUARIO, RURAL, FORESTAL Y PESQUERO",
+        "Status": true
+    },
+    {
+        "Nombre": "FISCALIA GENERAL DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "FONATUR CONSTRUCTORA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "FONATUR INFRAESTRUCTURA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "FONATUR TREN MAYA, S.A. de C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO DE CAPITALIZACI\u00d3N E INVERSI\u00d3N DEL SECTOR RURAL",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO DE CULTURA ECON\u00d3MICA",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO DE EMPRESAS EXPROPIADAS DEL SECTOR AZUCARERO",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO DE GARANT\u00cdA Y FOMENTO PARA LA AGRICULTURA, GANADER\u00cdA Y AVICULTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO DE LA VIVIENDA DEL ISSSTE",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO NACIONAL DE FOMENTO AL TURISMO",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO NACIONAL PARA EL FOMENTO DE LAS ARTESAN\u00cdAS",
+        "Status": true
+    },
+    {
+        "Nombre": "FONDO NACIONAL PARA EL FOMENTO DE LAS ARTESAN\u00cdAS",
+        "Status": true
+    },
+    {
+        "Nombre": "Fideapech",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscalia General del Estado de Quintana Roo",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscal\u00eda Anticorrupci\u00f3n del Estado de Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscal\u00eda Especializada en Combate a la Corruci\u00f3n del Estado de Durango",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscal\u00eda General de Justicia del Estado",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscal\u00eda General de Justicia del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscal\u00eda General del Estado",
+        "Status": true
+    },
+    {
+        "Nombre": "Fiscal\u00eda General del Estado de Quintana Roo",
+        "Status": true
+    },
+    {
+        "Nombre": "GRUPO AEROPORTUARIO DE LA CIUDAD DE M\u00c9XICO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "H AYUNTAMIENTO NOMBRE DE DIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DE CENTRO, TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DE MUNICIPIO DE SANTA CLARA",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE CANATL\u00c1N",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE CANELAS",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE CONETO DE COMONFORT",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE CUENCAM\u00c9",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE EL ORO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE GUADALUPE VICTORIA",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE GUANACEV\u00cd",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE HIDALGO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE NAZAS",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE NUEVO IDEAL",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE OCAMPO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE PANUCO DE CORONADO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE PE\u00d1ON BLANCO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE POANAS",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE PUEBLO NUEVO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE RODEO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SAN BERNARDO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SAN DIMAS",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SAN JUAN DE GUADALUPE",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SAN JUAN DEL RIO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SAN LUIS DEL COORDERO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SANTIAGO PAPASQUIARO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE SIMON BOLIVAR",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE S\u00daCHIL",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE TAMAZULA",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE TEPEHUANES",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE TLAHUALILO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE TOPIA",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE VICENTE GUERRERO",
+        "Status": true
+    },
+    {
+        "Nombre": "H. AYUNTAMIENTO DEL MUNICIPIO DE \u00cdNDE",
+        "Status": true
+    },
+    {
+        "Nombre": "H. Ayuntamiento del Municipio de Mapim\u00ed",
+        "Status": true
+    },
+    {
+        "Nombre": "H. Ayuntamiento del Municipio de Mapim\u00ed",
+        "Status": true
+    },
+    {
+        "Nombre": "H. Ayuntamineto del Municipio de Ot\u00e1ez",
+        "Status": true
+    },
+    {
+        "Nombre": "H. CONGRESO DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "H. CONGRESO DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "H.AYUNTAMIENTO DEL MEZQUITAL DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL GENERAL DE M\u00c9XICO \\\"DR. EDUARDO LICEAGA\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL GENERAL \\\"DR. MANUEL GEA GONZ\u00c1LEZ\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL INFANTIL DE M\u00c9XICO \\\"FEDERICO G\u00d3MEZ\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL JU\u00c1REZ DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD \"DR. JUAN GRAHAM CASAS\u00daS\"",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE CIUDAD VICTORIA \\\"BICENTENARIO 2010\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE IXTAPALUCA",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA MUJER",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA PEN\u00cdNSULA DE YUCAT\u00c1N",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE OAXACA",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE SALUD MENTAL DE VILLAHERMOSA",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL BAJ\u00cdO",
+        "Status": true
+    },
+    {
+        "Nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL NI\u00d1O",
+        "Status": true
+    },
+    {
+        "Nombre": "Huehuetoca",
+        "Status": true
+    },
+    {
+        "Nombre": "Hueypoxtla",
+        "Status": true
+    },
+    {
+        "Nombre": "I.I.I. SERVICIOS, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "IMPRESORA Y ENCUADERNADORA PROGRESO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "IMSS OPORTUNIDADES",
+        "Status": true
+    },
+    {
+        "Nombre": "INFOTEC CENTRO DE INVESTIGACI\u00d3N E INNOVACI\u00d3N EN TECNOLOG\u00cdAS DE LA INFORMACI\u00d3N Y COMUNICACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO AGUASCALENTENSE DE LA JUVENTUD",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO AGUASCALENTENSE DE LAS MUJERES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO CULTURAL DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE ADMINISTRACI\u00d3N Y AVAL\u00daOS DE BIENES NACIONALES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE ASESORIA Y DEFENSORIA PUBLICA DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE BENEFICENCIA P\u00daBLICA DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE CAPACITACION PARA EL TRABAJO DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE CAPACITACI\u00d3N PARA EL TRABAJO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE COMPETITIVIDAD TUR\u00cdSTICA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE ECOLOG\u00cdA, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE EDUCACION DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE EDUCACI\u00d3N DIGITAL DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE EDUCACI\u00d3N PARA ADULTOS DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE FORMACION PARA EL TRABAJO DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE INFRAESTRUCTURA FISICA EDUCATIVA DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE INVESTIGACIONES \\\"DR. JOS\u00c9 MAR\u00cdA LUIS MORA\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE LA JUVENTUD Y EL DEPORTE DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE LOS MEXICANOS EN EL EXTERIOR",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE PLANEACION DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE PROFESIONALIZACI\u00d3N DEL MAGISTERIO POBLANO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE PROTECCI\u00d3N CIVIL DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE SALUD PARA EL BIENESTAR",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE SEGURIDAD SOCIAL DE ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES AL SERVICIO DE LOS PODERES DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES PARA LOS SERVIDORES PUBLICOS DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE SERVICIOS DE SALUD DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE TRANSPARENCIA DE JALISCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE TRANSPARENCIA DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE VIVIENDA DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DE VIVIENDA SOCIAL Y ORDENAMIENTO DE LA PROPIEDAD",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DEL AGUA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DEL DEPORTE DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO DEL FONDO NACIONAL PARA EL CONSUMO DE LOS TRABAJADORES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO ELECTORAL Y DE PARTICIPACI\u00d3N CIUDADANA DEL ESTADO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO ESTATAL DE EDUCACI\u00d3N PARA ADULTOS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO ESTATAL DE LAS MUJERES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO ESTATAL DE SEGURIDAD PUBLICA DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO ESTATAL ELECTORAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MAT\u00cdAS ROMERO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DE CINEMATOGRAF\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DE LA JUVENTUD",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DE LA PROPIEDAD INDUSTRIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DE LA RADIO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DE TECNOLOG\u00cdA DEL AGUA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DEL PETR\u00d3LEO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MEXICANO DEL TRANSPORTE",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MUNICIPAL AGUASCALENTENSE PARA LA CULTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO MUNICIPAL DE PLANEACION DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE ANTROPOLOG\u00cdA E HISTORIA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE ANTROPOLOG\u00cdA E HISTORIA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE ASTROF\u00cdSICA, \u00d3PTICA Y ELECTR\u00d3NICA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE BELLAS ARTES Y LITERATURA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE BELLAS ARTES Y LITERATURA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE CANCEROLOG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE CARDIOLOG\u00cdA \\\"IGNACIO CH\u00c1VEZ\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE CIENCIAS M\u00c9DICAS Y NUTRICI\u00d3N \\\"SALVADOR ZUBIR\u00c1N\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE DESARROLLO SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE ECOLOG\u00cdA Y CAMBIO CLIM\u00c1TICO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE ELECTRICIDAD Y ENERG\u00cdAS LIMPIAS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE ENFERMEDADES RESPIRATORIAS \\\"ISMAEL COS\u00cdO VILLEGAS\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE GERIATR\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE INVESTIGACIONES FORESTALES, AGR\u00cdCOLAS Y PECUARIAS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE INVESTIGACIONES NUCLEARES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LA ECONOM\u00cdA SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LA INFRAESTRUCTURA F\u00cdSICA EDUCATIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LAS MUJERES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LAS MUJERES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LAS PERSONAS ADULTAS MAYORES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LENGUAS IND\u00cdGENAS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LENGUAS IND\u00cdGENAS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE LOS PUEBLOS IND\u00cdGENAS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE MEDICINA GEN\u00d3MICA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE NEUROLOG\u00cdA Y NEUROCIRUG\u00cdA \\\"MANUEL VELASCO SU\u00c1REZ\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE PEDIATR\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE PERINATOLOG\u00cdA \\\"ISIDRO ESPINOSA DE LOS REYES\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE PESCA Y ACUACULTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE PSIQUIATR\u00cdA \\\"RAM\u00d3N DE LA FUENTE MU\u00d1IZ\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE REHABILITACI\u00d3N \\\"LUIS GUILLERMO IBARRA IBARRA\\\"",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DE SALUD P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DEL DERECHO DE AUTOR",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DEL EMPRENDEDOR",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL DEL SUELO SUSTENTABLE",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL PARA EL DESARROLLO DE CAPACIDADES DEL SECTOR RURAL, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL PARA EL FEDERALISMO Y EL DESARROLLO MUNICIPAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL PARA LA EDUCACI\u00d3N DE LOS ADULTOS",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL PARA LA EVALUACI\u00d3N DE LA EDUCACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO NACIONAL PARA LA EVALUACI\u00d6\u009dN DE LA EDUCACI\u009d\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO PARA DEVOLVER AL PUEBLO LO ROBADO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO PARA EL DESARROLLO DE LA SOCIEDAD DEL CONOCIMIENTO DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO PARA EL FOMENTO DE LAS ARTESAN\u00cdAS DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO PARA LA EDUCACION DE LAS PERSONAS JOVENES Y ADULTAS DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO PARA LA PROTECCI\u00d3N AL AHORRO BANCARIO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO POBLANO DE ASISTENCIA AL MIGRANTE",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO POLIT\u00c9CNICO NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO POTOSINO DE INVESTIGACI\u00d3N CIENT\u00cdFICA Y TECNOL\u00d3GICA, A.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO SUPERIOR DE MACUSPANA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TABASQUE\u00d1O DE INFRAESTRUCTURA F\u00cdSICA EDUCATIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOLOGICO DE COMALCALCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOLOGICO SUPERIOR DE CENTLA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOLOGICO SUPERIOR DE VILLA LA VENTA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE ACATL\u00c1N DE OSORIO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE ATLIXCO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE CIUDAD SERD\u00c1N",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE HUAUCHINANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE LA SIERRA NEGRA DE AJALPAN",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE LA SIERRA NORTE DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE LIBRES",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE SAN MART\u00cdN TEXMELUCAN",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE TEPEACA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE TEPEXI DE RODR\u00cdGUEZ",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE TEZIUTL\u00c1N",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE TLATLAUQUITEPEC",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE VENUSTIANO CARRANZA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECNOL\u00d3GICO SUPERIOR DE ZACAPOAXTLA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECN\u00d3LOGICO SUPERIOR DE LA REGI\u00d3N SIERRA",
+        "Status": true
+    },
+    {
+        "Nombre": "INSTITUTO TECN\u00d3LOGICO SUPERIOR DE LOS RIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "Inst de Informaci\u00f3n Estad\u00edstica y Geogr\u00e1fica Jalis",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Chihuahuense de Infraestructura Fisica Educativa",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Duranguense de Acceso a la Informaci\u00f3n P\u00fablica y Protecci\u00f3n de datos personales",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Electoral del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Electoral del Estado de Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Mexiquense de la Infraestructura F\u00edsica Educativa",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Regional del Patrimonio Mundial en Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto Zacatecano de Transparencia, Acceso a la Informaci\u00f3n y Protecci\u00f3n de Datos Personales",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto de Acceso a la Informaci\u00f3n P\u00fablica y Protecci\u00f3n de Datos Personales",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto de Evaluaci\u00f3n de Pol\u00edticas P\u00fablicas del Estado de Durango",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto de Salud del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto de Seguridad Social del Estado de M\u00e9xico y Municipios",
+        "Status": true
+    },
+    {
+        "Nombre": "Instituto de Transparencia, Acceso a la Informaci\u00f3n P\u00fablica y Protecci\u00f3n de Datos Personales del Estado de M\u00e9xico y Municipios",
+        "Status": true
+    },
+    {
+        "Nombre": "Isidro Fabela",
+        "Status": true
+    },
+    {
+        "Nombre": "Ixtapan De La Sal",
+        "Status": true
+    },
+    {
+        "Nombre": "Ixtapan Del Oro",
+        "Status": true
+    },
+    {
+        "Nombre": "Ixtlahuaca",
+        "Status": true
+    },
+    {
+        "Nombre": "JUNTA ESTATAL DE CAMINOS",
+        "Status": true
+    },
+    {
+        "Nombre": "Jilotepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Jilotzingo",
+        "Status": true
+    },
+    {
+        "Nombre": "Jiquipilco",
+        "Status": true
+    },
+    {
+        "Nombre": "Jocotitl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Junta Central de Agua y Saneamiento",
+        "Status": true
+    },
+    {
+        "Nombre": "Junta Intermunicipal de Agua Potable y Alcantarillado de Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "Junta Intermunicipal para la Operaci\u00f3n del Relleno Sanitario",
+        "Status": true
+    },
+    {
+        "Nombre": "LABORATORIOS DE BIOL\u00d3GICOS Y REACTIVOS DE M\u00c9XICO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "LICONSA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "LICONSA, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "LOTER\u00cdA NACIONAL PARA LA ASISTENCIA P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "LUZ Y FUERZA DEL CENTRO EN LIQUIDACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "La Paz",
+        "Status": true
+    },
+    {
+        "Nombre": "Luvianos",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE ASIENTOS",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE CALVILLO",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE COSIO",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE EL LLANO",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE JESUS MARIA",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE PABELLON DE ARTEAGA",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE RINCON DE ROMOS",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE SAN FRANCISCO DE LOS ROMO",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE SAN JOSE DE GRACIA",
+        "Status": true
+    },
+    {
+        "Nombre": "MUNICIPIO DE TEPEZALA",
+        "Status": true
+    },
+    {
+        "Nombre": "MUSEO INTERACTIVO PAPAGAYO",
+        "Status": true
+    },
+    {
+        "Nombre": "MUSEOS PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "Melchor Ocampo",
+        "Status": true
+    },
+    {
+        "Nombre": "Metepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Mexicaltzingo",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Calera",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Camargo",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Chihuahua - DIF",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Chihuahua - Direcci\u00f3n de Desarrollo Econ\u00f3mico y Tur\u00edstico",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Chihuahua - Direcci\u00f3n de Desarrollo Urbano y Ecolog\u00eda",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Chihuahua - Instituto Municipal de la Cultura F\u00edsica y el Deporte",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Ciudad Cuauht\u00e9moc",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Dr. Belisario Dom\u00ednguez",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Fresnillo",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Genaro Codina",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de General Enrique Estrada",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de General P\u00e1nfilo Natera",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Guadalupe",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Jerez de Garc\u00eda Salinas",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Ju\u00e1rez",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Nonoava",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Ojocaliente",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Praxedis G. Guerrero",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de P\u00e1nuco",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Susticac\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Valpara\u00edso",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Vetagrande",
+        "Status": true
+    },
+    {
+        "Nombre": "Municipio de Villa de Cos",
+        "Status": true
+    },
+    {
+        "Nombre": "NACIONAL FINANCIERA, S.N.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "NOTIMEX, AGENCIA DE NOTICIAS DEL ESTADO MEXICANO",
+        "Status": true
+    },
+    {
+        "Nombre": "NOTIMEX, AGENCIA DE NOTICIAS DEL ESTADO MEXICANO",
+        "Status": true
+    },
+    {
+        "Nombre": "Naucalpan",
+        "Status": true
+    },
+    {
+        "Nombre": "Nezahualc\u00f3yotl",
+        "Status": true
+    },
+    {
+        "Nombre": "Nicol\u00e1s Romero",
+        "Status": true
+    },
+    {
+        "Nombre": "OFICIALIA MAYOR DE GOBIERNO",
+        "Status": true
+    },
+    {
+        "Nombre": "OFICINA DE LA PRESIDENCIA DE LA REP\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "OFICINA DEL DESPACHO DEL GOBERNADOR",
+        "Status": true
+    },
+    {
+        "Nombre": "OPERADORA DE FIDEICOMISOS DEL ESTADO DE AGUASCALIENTES S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANISMO COORDINADOR DE LAS UNIVERSIDADES PARA EL BIENESTAR BENITO JU\u00c1REZ GARC\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANISMO OPERADOR DE AGUA DEL MUNICIPIO DE SAN FRANCISCO DE LOS ROMO",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANISMO OPERADOR DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE RINCON DE ROMOS",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANISMO OPERADOR DE SERVICIOS DE AGUA DE CALVILLO",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANISMO PROMOTOR DE INVERSIONES EN TELECOMUNICACIONES",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANO DE FISCALIZACI\u00d3N DEL ESTADO DE TLAXCALA",
+        "Status": true
+    },
+    {
+        "Nombre": "ORGANO SUPERIOR DE FISCALIZACION DEL ESTADO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "Ocoyoacac",
+        "Status": true
+    },
+    {
+        "Nombre": "Ocuilan",
+        "Status": true
+    },
+    {
+        "Nombre": "Operadora de Transporte Vivebus Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "Otumba",
+        "Status": true
+    },
+    {
+        "Nombre": "Otzoloapan",
+        "Status": true
+    },
+    {
+        "Nombre": "Otzolotepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Ozumba",
+        "Status": true
+    },
+    {
+        "Nombre": "P.M.I. COMERCIO INTERNACIONAL, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "PATRONATO DE LA FERIA NACIONAL DE SAN MARCOS",
+        "Status": true
+    },
+    {
+        "Nombre": "PATRONATO DE OBRAS E INSTALACIONES DEL INSTITUTO POLIT\u00c9CNICO NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX COGENERACI\u00d3N Y SERVICIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX CORPORATIVO",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX ETILENO",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX EXPLORACI\u00d3N Y PRODUCCI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX LOG\u00cdSTICA",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX PERFORACI\u00d3N Y SERVICIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "PEMEX TRANSFORMACI\u00d3N INDUSTRIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "PODER JUDICIAL DEL ESTADO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "PODER JUDICIAL DEL ESTADO DE OAXACA CONS DE LA JUD",
+        "Status": true
+    },
+    {
+        "Nombre": "PROCURADURIA ESTATAL DE PROTECCION AL AMBIENTE",
+        "Status": true
+    },
+    {
+        "Nombre": "PROCURADUR\u00cdA AGRARIA",
+        "Status": true
+    },
+    {
+        "Nombre": "PROCURADUR\u00cdA FEDERAL DE LA DEFENSA DEL TRABAJO",
+        "Status": true
+    },
+    {
+        "Nombre": "PROCURADUR\u00cdA FEDERAL DE PROTECCI\u00d3N AL AMBIENTE",
+        "Status": true
+    },
+    {
+        "Nombre": "PROCURADUR\u00cdA FEDERAL DEL CONSUMIDOR",
+        "Status": true
+    },
+    {
+        "Nombre": "PRODUCTORA NACIONAL DE BIOL\u00d3GICOS VETERINARIOS",
+        "Status": true
+    },
+    {
+        "Nombre": "PROM\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "PRON\u00d3STICOS PARA LA ASISTENCIA P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "PRUEBA 1 SECRETARIA DE LA FUNCI\u00d3N P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "Pensiones Civiles del Estado de Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "Poder Judicial",
+        "Status": true
+    },
+    {
+        "Nombre": "Poder Judicial del Estado de Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "Poder Legislativo",
+        "Status": true
+    },
+    {
+        "Nombre": "Poder Legislativo",
+        "Status": true
+    },
+    {
+        "Nombre": "Polotitl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Promotora para el Desarrollo Econ\u00f3mico de Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "R. AYUNTAMIENTO DEL MUNICIPIO DE G\u00d3MEZ PALACIO",
+        "Status": true
+    },
+    {
+        "Nombre": "R. AYUNTAMIENTO DEL MUNICIPIO DE G\u00d3MEZ PALACIO",
+        "Status": true
+    },
+    {
+        "Nombre": "R. AYUNTAMIENTO DEL MUNICIPIO DE LERDO",
+        "Status": true
+    },
+    {
+        "Nombre": "RADIO EDUCACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "RADIO EDUCACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "RADIO Y TELEVISION DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "REGISTRO AGRARIO NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "Ray\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "SCTG",
+        "Status": true
+    },
+    {
+        "Nombre": "SECCIONES MEXICANAS DE LAS COMISIONES INTERNACIONALES DE L\u00cdMITES Y AGUAS ENTRE M\u00c9XICO Y GUATEMALA, Y ENTRE M\u00c9XICO Y BELIZE",
+        "Status": true
+    },
+    {
+        "Nombre": "SECCI\u00d3N MEXICANA DE LA COMISI\u00d3N INTERNACIONAL DE L\u00cdMITES Y AGUAS ENTRE M\u00c9XICO Y ESTADOS UNIDOS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE ADMINISTRACION",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE ADMINISTRACION",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE COMUNICACIONES Y TRANSPORTES DEL ESTADO DE TLAXCALA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE DESARROLLO ECONOMICO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE DESARROLLO RURAL Y AGROEMPRESARIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE DESARROLLO SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE FINANZAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE FINANZAS DE JESUS MARIA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE FOMENTO AGROPECUARIO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE GESTION URBANISTICA ORDENAMIENTO TERRITORIAL REGISTRAL Y CATASTRAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE OBRAS PUBLICAS DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE OBRAS PUBLICAS DEL MUNICIPIO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE PLANEACION Y FINANZAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE SEGURIDAD PUBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE SUSTENTABILIDAD MEDIO AMBIENTE Y AGUA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA DE TURISMO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA EJECUTIVA DEL SISTEMA ANTICORRUPCI\u00d3N DEL ESTADO DE TLAXCALA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCION",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCION",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIA GENERAL DE GOBIERNO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETARIADO EJECUTIVO DEL SISTEMA ESTATAL DE SEGURIDAD P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE ADMINISTRACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE ADMINISTRACI\u00d3N E INNOVACI\u00d3N GUBERNAMENTAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE AGRICULTURA Y DESARROLLO RURAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE BIENESTAR",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE BIENESTAR",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE CULTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE CULTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE CULTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE DESARROLLO AGROPECUARIO, FORESTAL Y PESCA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE DESARROLLO ECONOMICO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE DESARROLLO RURAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE ECONOM\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE ECONOM\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE EDUCACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE EDUCACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE EDUCACI\u00d3N P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE EDUCACI\u00d3N P\u00daBLICA-UNIDAD DE SERVICIOS EDUCATIVOS DEL ESTADO DE TLAXCALA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE ENERG\u00cdA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE FINANZAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE GOBERNACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE GOBERNACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE HACIENDA Y CR\u00c9DITO P\u00daBLICO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE IGUALDAD SUSTANTIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE INFRAESTRUCTURA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE INFRAESTRUCTURA, COMUNICACIONES Y TRANSPORTES",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE LA FUNCI\u00d3N P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE LA FUNCI\u00d3N P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE MEDIO AMBIENTE Y RECURSOS NATURALES",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE MEDIO AMBIENTE, DESARROLLO SUSTENTABLE Y ORDENAMIENTO TERRITORIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE MOVILIDAD Y TRANSPORTE",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE ORDENAMIENTO TERRITORIAL Y OBRAS P\u00daBLICAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE PLANEACI\u00d3N Y FINANZAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE POL\u00cdTICAS P\u00daBLICAS Y PARTICIPACI\u00d3N CIUDADANA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE RELACIONES EXTERIORES",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE SALUD",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE SALUD",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE SALUD",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE SEGURIDAD P\u00daBLICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE SEGURIDAD Y PROTECCI\u00d3N CIUDADANA",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE TRABAJO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE TURISMO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE TURISMO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DE TURISMO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA DEL TRABAJO Y PREVISI\u00d3N SOCIAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCI\u00d3N TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA EJECUTIVA DEL SISTEMA LOCAL ANTICORRUPCI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA EJECUTIVA DEL SISTEMA NACIONAL ANTICORRUPCI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA EJECUTIVA DEL SISTEMA NACIONAL DE PROTECCI\u00d3N INTEGRAL DE NI\u00d1AS, NI\u00d1OS Y ADOLESCENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA GENERAL DEL CONSEJO NACIONAL DE POBLACI\u00d3N",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA PARA EL DESARROLLO ECON\u00d3MICO Y LA COMPETITIVIDAD",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA PARA EL DESARROLLO ENERG\u00c9TICO",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA T\u00c9CNICA DE LA COMISI\u00d3N CALIFICADORA DE PUBLICACIONES Y REVISTAS ILUSTRADAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SECRETAR\u00cdA T\u00c9CNICA DEL CONSEJO DE COORDINACI\u00d3N PARA LA IMPLEMENTACI\u00d3N DEL SISTEMA DE JUSTICIA PENAL",
+        "Status": true
+    },
+    {
+        "Nombre": "SEGURIDAD ALIMENTARIA MEXICANA",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO DE ADMINISTRACI\u00d3N TRIBUTARIA",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO DE INFORMACI\u00d3N AGROALIMENTARIA Y PESQUERA",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO ESTATAL DE ADMINISTRACI\u00d3N DE BIENES ASEGURADOS, ABANDONADOS O  DECOMISADOS  DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO GEOL\u00d3GICO MEXICANO",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO NACIONAL DE EMPLEO TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO NACIONAL DE INSPECCI\u00d3N Y CERTIFICACI\u00d3N DE SEMILLAS",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO NACIONAL DE SANIDAD, INOCUIDAD Y CALIDAD AGROALIMENTARIA",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIO POSTAL MEXICANO",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIOS AEROPORTUARIOS DE LA CIUDAD DE M\u00c9XICO, S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "SERVICIOS DE ATENCI\u00d3N PSIQUI\u00c1TRICA",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA DE FINANCIAMIENTO DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA ESTATAL DE COMUNICACIONES",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA NACIONAL PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA OPERADOR DE LOS SERVICIOS DE AGUA POTABLE Y ALCANTARILLADO DEL MUNICIPIO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA PARA EL DESARROLLO INTEGRAL DE LA FAMILIA DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA PARA EL DESARROLLO INTEGRAL DE LA FAMILIA DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "SISTEMA P\u00daBLICO DE RADIODIFUSI\u00d3N DEL ESTADO MEXICANO",
+        "Status": true
+    },
+    {
+        "Nombre": "SOCIEDAD HIPOTECARIA FEDERAL, S.N.C.",
+        "Status": true
+    },
+    {
+        "Nombre": "SUPREMO TRIBUNAL DE JUSTICIA DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "San Felipe del Progreso",
+        "Status": true
+    },
+    {
+        "Nombre": "San Jos\u00e9 del Rinc\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "San Mart\u00edn de las Pir\u00e1mides",
+        "Status": true
+    },
+    {
+        "Nombre": "San Mateo Atenco",
+        "Status": true
+    },
+    {
+        "Nombre": "Santo Tom\u00e1s",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda Ejecutiva",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda Ejecutiva",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda Ejecutiva del Sistema Anticorrupci\u00f3n del Estado de Chiapas",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda Ejecutiva del Sistema Anticorrupci\u00f3n del Estado de Quintana Roo",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda Ejecutiva del Sistema Estatal Anticorrupci\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda Ejecutiva del Sistema Estatal Anticorrupci\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de Comunicaciones y Obras P\u00fablicas",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de Cultura",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de Desarrollo Urbano y Obra",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de Educaci\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de Finanzas",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de Movilidad",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de la Contralor\u00eda",
+        "Status": true
+    },
+    {
+        "Nombre": "Secretar\u00eda de la Contralor\u00eda y Transparencia Gubernamental",
+        "Status": true
+    },
+    {
+        "Nombre": "Servicios Educativos Integrados al Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Servicios Educativos del Estado de Chihuahua  (Seech)",
+        "Status": true
+    },
+    {
+        "Nombre": "Sistema Descentralizado de Agua Potable y Alcantarillado de G\u00f3mez Palacio",
+        "Status": true
+    },
+    {
+        "Nombre": "Sistema de Transporte Masivo y Telef\u00e9rico del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Soyaniquilpan de Ju\u00e1rez",
+        "Status": true
+    },
+    {
+        "Nombre": "Sultepec",
+        "Status": true
+    },
+    {
+        "Nombre": "TALLERES GR\u00c1FICOS DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "TECNOL\u00d3GICO NACIONAL DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "TELECOMUNICACIONES DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "TELEVISI\u00d3N METROPOLITANA S.A. DE C.V.",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL DE JUSTICIA ADMINISTRATIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL DE JUSTICIA ADMINISTRATIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL DE JUSTICIA ADMINISTRATIVA DEL ESTADO DE QUINTANA ROO",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL ELECTORAL DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL ELECTORAL DEL ESTADO",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL ELECTORAL DEL ESTADO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL FEDERAL DE CONCILIACI\u00d3N Y ARBITRAJE",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL FEDERAL DE JUSTICIA FISCAL Y ADMINISTRATIVA",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL SUPERIOR AGRARIO",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL SUPERIOR DE JUSTICIA",
+        "Status": true
+    },
+    {
+        "Nombre": "TRIBUNAL SUPERIOR DE JUSTIICIA",
+        "Status": true
+    },
+    {
+        "Nombre": "Tec\u00e1mac",
+        "Status": true
+    },
+    {
+        "Nombre": "Tejupilco",
+        "Status": true
+    },
+    {
+        "Nombre": "Temascalapa",
+        "Status": true
+    },
+    {
+        "Nombre": "Temascaltepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Temoaya",
+        "Status": true
+    },
+    {
+        "Nombre": "Tenancingo",
+        "Status": true
+    },
+    {
+        "Nombre": "Teoloyucan",
+        "Status": true
+    },
+    {
+        "Nombre": "Tepotzotl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Texcaltitl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Tlalmanalco",
+        "Status": true
+    },
+    {
+        "Nombre": "Tlalnepantla de Baz",
+        "Status": true
+    },
+    {
+        "Nombre": "Tlatlaya",
+        "Status": true
+    },
+    {
+        "Nombre": "Tonatico",
+        "Status": true
+    },
+    {
+        "Nombre": "Tribunal Electoral del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Tribunal de Justicia Administrativa del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Tribunal de Justicia Administrativa del Estado de Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "Tribunal de Justicia Electoral del Estado de Zacatecas",
+        "Status": true
+    },
+    {
+        "Nombre": "Tultepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Tultitl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIDAD DEL SISTEMA PARA LA CARRERA DE LAS MAESTRAS Y LOS MAESTROS",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD ABIERTA Y A DISTANCIA DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD AUTONOMA DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD INTERCULTURAL DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD INTERCULTURAL DEL ESTADO DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD INTERSERRANA DEL ESTADO DE PUEBLA AHUACATL\u00c1N",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD INTERSERRANA DEL ESTADO DE PUEBLA CHILCHOTLA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD JU\u00c1REZ AUT\u00d3NOMA DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD JU\u00c1REZ DEL ESTADO DE DURANGO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD PEDAG\u00d3GICA NACIONAL",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POLITECNICA DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POLIT\u00c9CNICA DE AMOZOC",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POLIT\u00c9CNICA DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POLIT\u00c9CNICA DEL GOLFO DE M\u00c9XICO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POLIT\u00c9CNICA MESOAMERICANA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POLIT\u00c9CNICA METROPOLITANA DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD POPULAR DE LA CHONTALPA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOLOGICA DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOLOGICA DE CALVILLO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOLOGICA DEL NORTE DE AGUASCALIENTES",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOLOGICA DEL RETO\u00d1O",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOLOGICA METROPOLITANA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA BILING\u00dcE INTERNACIONAL Y SUSTENTABLE DEL ESTADO DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE HUEJOTZINGO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE IZ\u00daCAR DE MATAMOROS",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE ORIENTAL",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE PUEBLA",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE TABASCO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE TECAMACHALCO",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE TEHUAC\u00c1N",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD TECNOL\u00d3GICA DE XICOTEPEC DE JU\u00c1REZ",
+        "Status": true
+    },
+    {
+        "Nombre": "UNIVERSIDAD T\u00c9CNOLOGICA DEL USUMACINTA",
+        "Status": true
+    },
+    {
+        "Nombre": "Universidad Aut\u00f3noma del Estado de M\u00e9xico",
+        "Status": true
+    },
+    {
+        "Nombre": "Universidad Tecnologica de Chihuahua Sur",
+        "Status": true
+    },
+    {
+        "Nombre": "Universidad Tecnol\u00f3gica de Chihuahua",
+        "Status": true
+    },
+    {
+        "Nombre": "Valle de Bravo",
+        "Status": true
+    },
+    {
+        "Nombre": "Valle de Chalco Solidaridad",
+        "Status": true
+    },
+    {
+        "Nombre": "Villa Guerrero",
+        "Status": true
+    },
+    {
+        "Nombre": "Villa Victoria",
+        "Status": true
+    },
+    {
+        "Nombre": "Villa de Allende",
+        "Status": true
+    },
+    {
+        "Nombre": "Villa del Carb\u00f3n",
+        "Status": true
+    },
+    {
+        "Nombre": "XE-IPN CANAL 11",
+        "Status": true
+    },
+    {
+        "Nombre": "Xalatlaco",
+        "Status": true
+    },
+    {
+        "Nombre": "Xonacatl\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Zacualpan",
+        "Status": true
+    },
+    {
+        "Nombre": "Zinacantepec",
+        "Status": true
+    },
+    {
+        "Nombre": "Zumpahuac\u00e1n",
+        "Status": true
+    },
+    {
+        "Nombre": "Zumpango",
+        "Status": true
+    },
+    {
+        "Nombre": "\u00d3RGANO SUPERIOR DE FISCALIZACI\u00d3N DEL ESTADO DE TABASCO",
+        "Status": true
+    }
+]
