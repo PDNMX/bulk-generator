@@ -1,3 +1,4 @@
+"""
 from datetime import datetime
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
@@ -25,7 +26,7 @@ def update():
         os.system(comando)
 
         #Iniciamos el proceso de conteo
-        gb.merge(sistema,gb.readName("../data",0))
+        gb.init(sistema,gb.readName("../data",0))
 
         #Creamos el archivo comprimido de los .json
         zip = shutil.make_archive("./descargas/data/"+sistema+"/"+sistema,"zip","../data")
@@ -88,10 +89,11 @@ def download(sistema = None,elemento = None):
         #Retornamos la información
         return FileResponse(path=path,filename=path[tam:])
     
-
+"""
+import groupBy as gb
 
 if __name__ == '__main__':
-
+    """
     #Verificamos si tenemos los archivos
     if (not os.path.exists("./descargas/all.zip")):
         #Creamos las carpetas
@@ -105,4 +107,6 @@ if __name__ == '__main__':
 
     #Encender el servidor
     uvicorn.run(app,host='127.0.0.1', port=8000)
+    """
 
+    gb.init("s1",gb.readName("../data",0))

@@ -23,31 +23,92 @@ def readName(s,mode):
     return names
 
 
-#Funciones para realizar el conteo
-def csv(sistema,directorio,names):
-
+#Función encargada de unir los CSV
+def merge(sistema,directorio,names):
     #Lista que contendra los dataframes
     dataframes = []
 
-    #Iteramos los archivos del directorio
-    for name in names:
+    #Lista que contendra los dataframes ya procesados
+    listDataFramesGrouped = []
 
-        #Ruta del .json
-        p = Path('../data/'+directorio+'/'+name)
+    #Limite de archivos a leer
+    limite = 10000
+    print("Empiezo a leer")
+    #Iteramos todos los archivos y los vamos procesando poco a poco
+    for i in range(0,len(names)):
+        if (i<limite):
+            #Ruta del .json
+            p = Path('../data/'+directorio+'/'+names[i])
 
-        #Leemos el json
-        with p.open('r', encoding='utf-8') as f:
-            s = f.read()
-            
-            #Cargamos el .json
-            data = json.loads(s, strict=False)
+            #Leemos el json
+            with p.open('r', encoding='utf-8') as f:
+                s = f.read()
+                
+                #Cargamos el .json
+                data = json.loads(s, strict=False)
 
-            #Creamos el dataframe y lo agregamos a la lista
-            dataframes.append(pd.json_normalize(data))        
-    
-    #Creamos el contenedor de todos los dataframes
+                #Creamos el dataframe y lo agregamos a la lista
+                dataframes.append(pd.json_normalize(data))    
+        else:
+            print("Procesando dataframes de if")
+            #Retrocedemos una iteración
+            i-=1
+
+            #actualizamos limite
+            limite +=10000
+
+            #Creamos el contenedor de todos los dataframes hasta el momento
+            df = pd.concat(dataframes)
+
+            #Unimos los dataframes y lso agregamos a la lista
+            listDataFramesGrouped.append(csv(sistema,directorio,df))
+
+            #Limpiamos la lista
+            dataframes.clear()
+
+    #Procesamos los archivos restantes
+    print("Procesando dataframes restantes")
+    #Creamos el contenedor de todos los dataframes hasta el momento
     df = pd.concat(dataframes)
 
+    #Unimos los dataframes y lso agregamos a la lista
+    listDataFramesGrouped.append(csv(sistema,directorio,df))
+
+    #contenedor final
+    df_grouped = pd.DataFrame(listDataFramesGrouped[0])
+
+    columna = ""
+
+    #Definimos la columna
+    if (sistema == "s1"):
+        columna = "nombreEntePublico"
+    elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
+        columna = "institucionDependencia"
+    print("Comienzo a sumar")
+    #Iteramos los grupos
+    for i in range(1,len(listDataFramesGrouped)):
+        df_i = listDataFramesGrouped[i]
+
+        #Iteramos los nombres
+        for j in df_i.index:
+            nombre = df_i[columna][j]
+
+            #Si hay coincidencia se suman las cuentas
+            if(df_grouped.isin([nombre]).any().any()):
+                #Si hay coincidencia se suman las cuentas
+                k = df_grouped.index[df_grouped[columna] == nombre].tolist()
+                df_grouped["count"][k] = int(df_grouped["count"][k]+df_i["count"][j])
+            else:
+                #En caso contrario se agrega
+                df_grouped = df_grouped.append({'entidadPublica':df_i['entidadPublica'][j],columna:df_i[columna][j],'count':df_i['count'][j]},ignore_index=True)
+
+    print("Retornando dataframe final")
+    return df_grouped
+
+
+
+#Función encargada de generar los csv
+def csv(sistema,directorio,df):
 
     if(sistema == "s1"):
 
@@ -91,7 +152,7 @@ def csv(sistema,directorio,names):
 
 
 #Función encargada de juntar los archivos en uno
-def merge(s,directorios):
+def init(s,directorios):
 
     #Lista que guarda los dataFrames
     list = []
@@ -112,7 +173,12 @@ def merge(s,directorios):
             names = readName(Path('../data/'+directorio),1)
 
             if(len(names) != 0):
-                csv(s,directorio,names).to_csv(file, header=flag, index=False)
+                #csv(s,directorio,names).to_csv(file, header=flag, index=False)
+                #Aqui se hace el cambio
+                print("Llamada a merge")
+                merge(s,directorio,names).to_csv(file, header=flag, index=False)
+                print("Fin de merge")
+                #pass
             else:
                 
                 #Agregamos el nombre a la lista de entidades vacias
