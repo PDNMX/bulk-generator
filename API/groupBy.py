@@ -33,7 +33,10 @@ def merge(sistema,directorio,names):
 
     #Limite de archivos a leer
     limite = 10000
-    print("Empiezo a leer")
+
+    #Mensaje
+    print(sistema+": Empiezo a leer a "+directorio)
+
     #Iteramos todos los archivos y los vamos procesando poco a poco
     for i in range(0,len(names)):
         if (i<limite):
@@ -50,7 +53,9 @@ def merge(sistema,directorio,names):
                 #Creamos el dataframe y lo agregamos a la lista
                 dataframes.append(pd.json_normalize(data))    
         else:
-            print("Procesando dataframes de if")
+            #Mensaje
+            print(sistema+": Procesando dataframes de "+directorio)
+
             #Retrocedemos una iteración
             i-=1
 
@@ -60,23 +65,25 @@ def merge(sistema,directorio,names):
             #Creamos el contenedor de todos los dataframes hasta el momento
             df = pd.concat(dataframes)
 
-            #Unimos los dataframes y lso agregamos a la lista
+            #Unimos los dataframes y los agregamos a la lista
             listDataFramesGrouped.append(csv(sistema,directorio,df))
 
             #Limpiamos la lista
             dataframes.clear()
 
-    #Procesamos los archivos restantes
-    print("Procesando dataframes restantes")
+    #Mensaje
+    print(sistema+": Procesando dataframes restantes de "+directorio)
+
     #Creamos el contenedor de todos los dataframes hasta el momento
     df = pd.concat(dataframes)
 
     #Unimos los dataframes y lso agregamos a la lista
     listDataFramesGrouped.append(csv(sistema,directorio,df))
 
-    #contenedor final
+    #contenedor final, agragamos al primer dataframe
     df_grouped = pd.DataFrame(listDataFramesGrouped[0])
 
+    #Columna a unir
     columna = ""
 
     #Definimos la columna
@@ -84,9 +91,14 @@ def merge(sistema,directorio,names):
         columna = "nombreEntePublico"
     elif (sistema == "s2" or sistema == "s3s" or sistema == "s3p"):
         columna = "institucionDependencia"
-    print("Comienzo a sumar")
+    
+    #Mensaje
+    print(sistema+": Comienzo a sumar los dataframes procesados de "+directorio)
+
     #Iteramos los grupos
     for i in range(1,len(listDataFramesGrouped)):
+
+        #Obtenemos el dataframe
         df_i = listDataFramesGrouped[i]
 
         #Iteramos los nombres
@@ -98,11 +110,14 @@ def merge(sistema,directorio,names):
                 #Si hay coincidencia se suman las cuentas
                 k = df_grouped.index[df_grouped[columna] == nombre].tolist()
                 df_grouped["count"][k] = int(df_grouped["count"][k]+df_i["count"][j])
+
             else:
                 #En caso contrario se agrega
                 df_grouped = df_grouped.append({'entidadPublica':df_i['entidadPublica'][j],columna:df_i[columna][j],'count':df_i['count'][j]},ignore_index=True)
 
-    print("Retornando dataframe final")
+    #Mensaje
+    print(sistema+": Retornando dataframe procesado y agrupado de "+directorio)
+
     return df_grouped
 
 
@@ -173,14 +188,10 @@ def init(s,directorios):
             names = readName(Path('../data/'+directorio),1)
 
             if(len(names) != 0):
-                #csv(s,directorio,names).to_csv(file, header=flag, index=False)
-                #Aqui se hace el cambio
-                print("Llamada a merge")
+                #Procesamos los json
                 merge(s,directorio,names).to_csv(file, header=flag, index=False)
-                print("Fin de merge")
-                #pass
+
             else:
-                
                 #Agregamos el nombre a la lista de entidades vacias
                 entidadVacia.append(directorio)
 

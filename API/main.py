@@ -1,4 +1,3 @@
-"""
 from datetime import datetime
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
@@ -88,12 +87,8 @@ def download(sistema = None,elemento = None):
 
         #Retornamos la información
         return FileResponse(path=path,filename=path[tam:])
-    
-"""
-import groupBy as gb
 
 if __name__ == '__main__':
-    """
     #Verificamos si tenemos los archivos
     if (not os.path.exists("./descargas/all.zip")):
         #Creamos las carpetas
@@ -107,6 +102,3 @@ if __name__ == '__main__':
 
     #Encender el servidor
     uvicorn.run(app,host='127.0.0.1', port=8000)
-    """
-
-    gb.init("s1",gb.readName("../data",0))
