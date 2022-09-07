@@ -1,16 +1,14 @@
-FROM python:3-slim-buster
+FROM nikolaik/python-nodejs:python3.10-nodejs16-slim
 
-WORKDIR /usr/src/app
+USER root
+WORKDIR /home/pn/bulk
 
 COPY requirements.txt ./
-
-## falta instalar node16
-RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
-RUN apt-get update
-RUN apt-get install nodejs npm -y
-RUN npm install
 
 COPY . .
+RUN yarn install
 
-CMD [ "python", "./API/main.py" ]
+WORKDIR /home/pn/bulk/API
+
+CMD [ "python", "main.py" ]
