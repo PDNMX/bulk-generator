@@ -14,9 +14,10 @@ actualizar = True
 
 #Función encargada de actualizar los archivos
 def update():
-
+    fecha = datetime.now()
+    fechaFormato = fecha.strftime('%d_%m_%Y')
     sistemas = ["s1","s2","s3s","s3p"]
-    
+
     #Descargamos la información para cada sistema
     for sistema in sistemas:
 
@@ -34,10 +35,10 @@ def update():
         os.system("yarn cleanDownload")
         
         #Creamos los zip con todos los elementos de cada sistema
-        zip = shutil.make_archive("./descargas/all_"+sistema,"zip","./descargas/data/"+sistema+"/")
+        zip = shutil.make_archive("./descargas/datos_PDN_"+sistema+"_"+fechaFormato,"zip","./descargas/data/"+sistema+"/")
 
     #Creamos el zip de todos los sistemas
-    zip = shutil.make_archive("./descargas/all","zip","./descargas/data")
+    zip = shutil.make_archive("./descargas/datos_PDN_all_"+fechaFormato,"zip","./descargas/data")
 
 
 
