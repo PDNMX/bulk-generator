@@ -33,6 +33,13 @@ def update():
 
         #limpiamos lo descargado
         os.system("yarn cleanDownload")
+
+        #Creamos el readme
+        with open("./descargas/data/"+sistema+"/readme.txt",'w') as file:
+            file.write("Datos PDN "+fecha.strftime("%d/%m/%Y")+"\n")
+            file.write("*conteo_registros: Archivo encargado de indicar el número de instituciones por cada sistema.\n")
+            file.write("*reporte_de_conexiones: Indica si una entidad esta disponible o no, en caso de que no lo este dentro del archivo de conteo no se verá reflejada.\n")
+            file.write("*Zip: Dentro del comprimido estarán los archivos JSON de cada entidad separados por carpetas.\n")
         
         #Creamos los zip con todos los elementos de cada sistema
         zip = shutil.make_archive("./descargas/datos_PDN_"+sistema+"_"+fechaFormato,"zip","./descargas/data/"+sistema+"/")
