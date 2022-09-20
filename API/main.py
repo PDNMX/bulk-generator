@@ -18,6 +18,10 @@ def update():
     fechaFormato = fecha.strftime('%d_%m_%Y')
     sistemas = ["s1","s2","s3s","s3p"]
 
+    #Guardamos la fecha de creación de archivos
+    with open("ultimaActualizacion.txt",'w') as file:
+        file.write(fechaFormato)
+
     #Descargamos la información para cada sistema
     for sistema in sistemas:
 
@@ -57,6 +61,10 @@ app = FastAPI()
 def download(sistema = None,elemento = None):
     global actualizar
 
+    #Leemos la ultima actualización
+    with open("ultimaActualizacion.txt",'r') as file:
+        fechaFormato = file.read()
+
     #Verificamos si toca actualizar los datos
     if(datetime.today().weekday() == day and datetime.now().time() >= limiteInferior and datetime.now().time() < limiteSuperior):
 
@@ -74,7 +82,7 @@ def download(sistema = None,elemento = None):
         if sistema is not None:
             if elemento is None:
                 #Descarga csv y zip del sistema dado
-                path = "./descargas/all_"+sistema+".zip"
+                path = "./descargas/datos_PDN_"+sistema+"_"+fechaFormato+".zip"
                 tam = 12
             elif elemento == "conteo":
                 #Descarga unicamente el csv
@@ -90,15 +98,20 @@ def download(sistema = None,elemento = None):
                 tam = 18 + len(sistema)
         else:
             #Descargamos todos los archivos
-            path = "./descargas/all.zip"
+            path = "./descargas/datos_PDN_all_"+fechaFormato+".zip"
             tam = 12
 
         #Retornamos la información
         return FileResponse(path=path,filename=path[tam:])
 
 if __name__ == '__main__':
+
+    #Leemos la ultima actualización
+    with open("ultimaActualizacion.txt",'r') as file:
+        fechaFormato = file.read()
+
     #Verificamos si tenemos los archivos
-    if (not os.path.exists("./descargas/all.zip")):
+    if (not os.path.exists("./descargas/datos_PDN_all_"+fechaFormato+".zip")):
         #Creamos las carpetas
         carpetas = ["./descargas","./descargas/data","./descargas/data/s1","./descargas/data/s2","./descargas/data/s3p","./descargas/data/s3s"]
         for carpeta in carpetas:
@@ -109,4 +122,4 @@ if __name__ == '__main__':
         update()
 
     #Encender el servidor
-    uvicorn.run(app,host='0.0.0.0', port=8000)
+    uvicorn.run(app,host='0.0.0.0', port=9000)

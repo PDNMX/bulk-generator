@@ -9,4 +9,5 @@ yarn-error.log
 data
 endpoints
 API/descargas
+API/ultimaActualizacion.txt
 API/__pycache__
