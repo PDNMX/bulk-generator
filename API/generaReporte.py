@@ -77,7 +77,7 @@ def validacion(sistema):
                         archivo.append({'nombre':str(df["nombre"][i]).strip(),'status':False})
 
             elif (resp.status_code >= 400):
-                print("Ocurrio el error " +str(resp.status_code)+" con: "+df["nombre"][i])
+                print("Ocurrio el error " +str(resp.status_code)+" con: "+str(df["nombre"][i]).strip())
 
         #Creamos el archivo json
         with open('./descargas/reporte_'+sistema+'.json','w') as file:
