@@ -5,6 +5,7 @@ from fastapi import Response
 import os
 import uvicorn
 import groupBy as gb
+import generaReporte as gr
 import shutil
 
 #Definición de día y horas de actualización
@@ -13,7 +14,7 @@ limiteInferior = datetime.strptime("8:00:00","%X").time()
 limiteSuperior = datetime.strptime("9:00:00","%X").time()
 actualizar = True
 
-#Función encargada de actualizar los archivos
+#Función encargada de actualizar los archivos y los reportes
 def update():
     fecha = datetime.now()
     fechaFormato = fecha.strftime('%d_%m_%Y')
@@ -51,6 +52,10 @@ def update():
 
     #Creamos el zip de todos los sistemas
     zip = shutil.make_archive("./descargas/datos_PDN_all_"+fechaFormato,"zip","./descargas/data")
+
+    #Actualiza reportes de instituciones
+    for sistema in sistemas[1:]:
+        gr.validacion(sistema)
 
 
 
@@ -133,3 +138,4 @@ if __name__ == '__main__':
 
     #Encender el servidor
     uvicorn.run(app,host='0.0.0.0', port=9000)
+
