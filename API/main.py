@@ -1,6 +1,7 @@
 from datetime import datetime
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
+from fastapi import Response
 import os
 import uvicorn
 import groupBy as gb
@@ -103,6 +104,15 @@ def download(sistema = None,elemento = None):
 
         #Retornamos la información
         return FileResponse(path=path,filename=path[tam:])
+
+@app.get("/instituciones")
+def download(sistema = None):
+    sistemas = ["s2","s3s","s3p"]
+    if(sistema in sistemas):
+        with open("./descargas/reporte_"+sistema+".json",'r') as file:
+            r = file.read()
+        return Response(content=r, media_type="application/json")
+
 
 if __name__ == '__main__':
 
