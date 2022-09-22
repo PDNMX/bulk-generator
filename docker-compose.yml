@@ -1,4 +1,8 @@
 version: '3'
+
+volumes:
+  bulks:
+
 services:
   api:
     build:
@@ -6,4 +10,6 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports:
-      - 3030:8000
+      - 3030:9000
+    volumes:
+      - 'bulks:/home/pn/bulk'
