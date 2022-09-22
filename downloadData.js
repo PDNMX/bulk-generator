@@ -100,8 +100,6 @@ const init = () => {
       await getInfo(e);
     } else {
       console.error(`${e.supplier_id} NO tiene habilitida la descarga`)
-      console.log("%cLog Message", "color: orange");
-1
     }
   });
 };
