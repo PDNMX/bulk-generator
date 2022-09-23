@@ -121,12 +121,7 @@ def download(sistema = None):
 
 if __name__ == '__main__':
 
-    #Leemos la ultima actualización
-    with open("ultimaActualizacion.txt",'r') as file:
-        fechaFormato = file.read()
-
-    #Verificamos si tenemos los archivos
-    if (not os.path.exists("./descargas/datos_PDN_all_"+fechaFormato+".zip")):
+    if (not os.path.exists("ultimaActualizacion.txt")):
         #Creamos las carpetas
         carpetas = ["./descargas","./descargas/data","./descargas/data/s1","./descargas/data/s2","./descargas/data/s3p","./descargas/data/s3s"]
         for carpeta in carpetas:
@@ -134,7 +129,7 @@ if __name__ == '__main__':
                 os.mkdir(carpeta)
         
         #Descargamos los archivos
-        update()
+        update()     
 
     #Encender el servidor
     uvicorn.run(app,host='0.0.0.0', port=9000)
