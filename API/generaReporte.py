@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import sys
 
-def validacion(sistema):
+def validacion(sistema,root):
     #Diccionario
     archivo = []
 
@@ -80,7 +80,7 @@ def validacion(sistema):
                 print("Ocurrio el error " +str(resp.status_code)+" con: "+str(df["nombre"][i]).strip())
 
         #Creamos el archivo json
-        with open('./descargas/reporte_'+sistema+'.json','w') as file:
+        with open('./'+root+'/reporte_'+sistema+'.json','w') as file:
             json.dump(archivo,file,indent=4)
 
     elif (resp.status_code >= 400):

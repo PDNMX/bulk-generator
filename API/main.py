@@ -14,7 +14,7 @@ def download(sistema = None,elemento = None):
     #Verificamos si toca actualizar los datos
     if(os.path.exists("actualizando")):
 
-        return {"Pagina en mantenimiento"}
+        return {"Generando datos"}
         
     else:
         #Leemos la ultima actualización
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     if (not os.path.exists("ultimaActualizacion.txt")):        
         #Descargamos los archivos
-        run()     
+        run("descargas")     
 
     #Encender el servidor
     uvicorn.run(app,host='0.0.0.0', port=9000)
