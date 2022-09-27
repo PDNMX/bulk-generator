@@ -37,3 +37,7 @@ Para iniciar el programa se debe de ejecutar alguno de los siguientes comandos d
   - reporte
   - zip
 
+- /instituciones?sistema=s: Con ella podrás acceder al endpoint del sistema que se especifique. “s” debe de ser sustituido por cualquiera de las siguientes opciones según se requiera:
+  - s2
+  - s3s
+  - s3p

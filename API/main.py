@@ -50,7 +50,7 @@ def download(sistema = None,elemento = None):
 @app.get("/instituciones")
 def download(sistema = None):
     if(os.path.exists("actualizando")):
-        return {"Pagina en mantenimiento"}
+        return {"Generando datos"}
     else:
         sistemas = ["s2","s3s","s3p"]
         if(sistema in sistemas):
