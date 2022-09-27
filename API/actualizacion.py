@@ -29,7 +29,12 @@ def run(root):
     sistemas = ["s1","s2","s3s","s3p"]
 
     #Guardamos la fecha de creación de archivos
-    with open("ultimaActualizacion.txt",'w') as file:
+    if (root == "tmp"):
+        ruta = "ultimaActualizacionTMP.txt"
+    else:
+        ruta = "ultimaActualizacion.txt"
+
+    with open(ruta,'w') as file:
         file.write(fechaFormato)
 
     #Descargamos la información para cada sistema
@@ -80,8 +85,14 @@ if __name__ == '__main__':
                 #Eliminamos la carpeta con los antiguos datos
                 shutil.rmtree("descargas")
 
+                #Eliminamos la antigua fecha de actualización
+                remove("ultimaActualizacion.txt")
+
                 #Renombramos las carpetas
                 os.rename("tmp","descargas")
+
+                #Renombramos el archivo de actualziacion
+                os.rename("ultimaActualizacionTMP.txt","ultimaActualizacion.txt")
 
                 #Removemos el archivo de control
                 remove("actualizando")
