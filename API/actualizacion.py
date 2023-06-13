@@ -7,9 +7,9 @@ import generaReporte as gr
 from os import remove
 
 #Definición de día y horas de actualización
-day = 5
+day = 1
 limiteInferior = datetime.strptime("00:00:00","%X").time()
-limiteSuperior = datetime.strptime("10:00:00","%X").time()
+limiteSuperior = datetime.strptime("23:00:00","%X").time()
 actualizar = True
 
 #Función encargada de actualizar los archivos y los reportes
@@ -27,6 +27,7 @@ def run(root):
 
     #Sistemas con los cuales se trabaja
     sistemas = ["s1","s2","s3s","s3p"]
+    #sistemas = ["s2"]
 
     #Guardamos la fecha de creación de archivos
     if (root == "tmp"):
@@ -67,40 +68,37 @@ def run(root):
     zip = shutil.make_archive("./"+root+"/datos_PDN_all_"+fechaFormato,"zip","./descargas/data")
 
     #Actualiza reportes de instituciones
-    for sistema in sistemas[1:]:
-        gr.validacion(sistema,root)
+    #for sistema in sistemas[1:]:
+    #    gr.validacion(sistema,root)
 
 if __name__ == '__main__':
-    while(True):
-        if (datetime.today().weekday() == day and datetime.now().time() >= limiteInferior and datetime.now().time() < limiteSuperior):
-            if actualizar:
-                print("Comence la actualizacion")
+    if actualizar:
+        print("Comence la actualizacion")
 
-                #Actualizamos
-                run("tmp")
+        #Actualizamos
+        run("tmp")
 
-                #Creamos el archivo de control
-                open("actualizando", "w").close()
-                
-                #Eliminamos la carpeta con los antiguos datos
-                shutil.rmtree("descargas")
+        #Creamos el archivo de control
+        open("actualizando", "w").close()
+        
+        #Eliminamos la carpeta con los antiguos datos
+        shutil.rmtree("descargas")
 
-                #Eliminamos la antigua fecha de actualización
-                remove("ultimaActualizacion.txt")
+        #Eliminamos la antigua fecha de actualización
+        remove("ultimaActualizacion.txt")
 
-                #Renombramos las carpetas
-                os.rename("tmp","descargas")
+        #Renombramos las carpetas
+        os.rename("tmp","descargas")
 
-                #Renombramos el archivo de actualziacion
-                os.rename("ultimaActualizacionTMP.txt","ultimaActualizacion.txt")
+        #Renombramos el archivo de actualziacion
+        os.rename("ultimaActualizacionTMP.txt","ultimaActualizacion.txt")
 
-                #Removemos el archivo de control
-                remove("actualizando")
-                print("Termine la actualizacion")
+        #Removemos el archivo de control
+        remove("actualizando")
+        print("Termine la actualizacion")
 
-                actualizar = False
-        else:
-            if not actualizar:
-                actualizar = True
+        actualizar = False
+    if not actualizar:
+        actualizar = True
                 
 

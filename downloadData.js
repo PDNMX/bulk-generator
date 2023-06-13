@@ -94,13 +94,16 @@ const getInfo = async endpoint => {
 
 const init = () => {
   endpoints.forEach(async e => {
-    if (e.download) {
+    /* if (e.download) {
       const sup_dir = `${__dirname}/data/${e.supplier_id}`;
       if (!fs.existsSync(sup_dir)) fs.mkdirSync(sup_dir, { recursive: true });
       await getInfo(e);
     } else {
       console.error(`${e.supplier_id} NO tiene habilitida la descarga`)
-    }
+    } */
+    const sup_dir = `${__dirname}/data/${e.supplier_id}`;
+    if (!fs.existsSync(sup_dir)) fs.mkdirSync(sup_dir, { recursive: true });
+    await getInfo(e);
   });
 };
 
