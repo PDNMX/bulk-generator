@@ -8,8 +8,9 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
+    privileged: true
     restart: always
     ports:
       - 3030:9000
-    volumes:
-      - 'bulks:/home/pn/bulk'
+    #volumes:
+    #  - 'bulks:/home/pn/bulk'

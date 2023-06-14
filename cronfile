@@ -1,0 +1,1 @@
+* * * * * /usr/bin/python3 /home/pn/bulk/API/actualizacion.py >> /home/pn/bulk/API/out.actualizacion.log 2>&1

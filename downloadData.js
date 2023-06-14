@@ -5,13 +5,15 @@ const jsonfile = require('jsonfile');
 const fs = require('fs');
 const endpoints = require(`${__dirname}/endpoints/endpoints.${process.argv[2]}.json`)
 
+const pageSizeDefault = 200;
+
 const writeFile = (filename, page, endpoint) =>
   new Promise(async (resolve, reject) => {
     const { url } = endpoint;
     const { token_type, access_token } = (await getToken(endpoint)).data;
 
     try {
-      const info = await getData(url, { pageSize: endpoint.pageSize, page }, token_type, access_token);
+      const info = await getData(url, { pageSize: pageSizeDefault, page }, token_type, access_token);
       if (info.status === 200 && info.data.results && info.data.results.length > 0) {
         jsonfile.writeFile(filename, info.data.results, { spaces: 2 }, err => {
           if (err) {
@@ -64,8 +66,8 @@ const getInfo = async endpoint => {
   } else {
     const { totalRows } = info.data.pagination;
 
-    let num = Math.floor(totalRows / endpoint.pageSize);
-    let pages = totalRows % endpoint.pageSize ? num + 1 : num;
+    let num = Math.floor(totalRows / pageSizeDefault);
+    let pages = totalRows % pageSizeDefault ? num + 1 : num;
     let linfo = { supplier_id, totalRows, pages };
     console.log(linfo);
   

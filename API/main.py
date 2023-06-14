@@ -3,7 +3,7 @@ from fastapi.responses import FileResponse
 from fastapi import Response
 import os
 import uvicorn
-from actualizacion import run
+#from actualizacion import run
 
 #Creamos la API
 app = FastAPI()
@@ -61,9 +61,9 @@ def download(sistema = None):
 
 if __name__ == '__main__':
 
-    if (not os.path.exists("ultimaActualizacion.txt")):        
+    #if (not os.path.exists("ultimaActualizacion.txt")):        
         #Descargamos los archivos
-        run("descargas")     
+        #run("descargas")     
 
     #Encender el servidor
     uvicorn.run(app,host='0.0.0.0', port=9000)
